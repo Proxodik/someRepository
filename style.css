@@ -1,0 +1,288 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  font-weight: 400;
+  src: url("fonts/ProximaNova-Regular.ttf");
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  height: 40px;
+  background: #33333A;
+  color: white;
+  font-family: Proxima Nova, sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.navigation {
+  width: 1440px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation .active {
+  color: #FF5E1B;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  gap: 50px
+}
+
+.tab {
+  font-family: Proxima Nova, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: #33333A;
+}
+
+.clientTabs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.welcome {
+  color: #33333A;
+  font-family: Proxima Nova,sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.mainPhoto {
+  width: 1440px;
+  height: 600px;
+  background: #F3F3F3;
+  position: relative;
+  text-align: center;
+}
+
+.womenPhoto {
+  position: absolute;
+  left: 905px;
+}
+
+.apparels {
+  position: absolute;
+  top: 183px;
+  left: 602px;
+  color: #33333A;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90px;
+}
+
+.description {
+  position: absolute;
+  top: 284px;
+  left: 442px;
+  width: 555px;
+  color: #030303;
+  text-align: center;
+  font-family: Proxima Nova, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+
+.bar {
+  position: relative;
+  width: 1440px;
+  height: 61px;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.women {
+  position: absolute;
+  left: 150px;
+  color: #030303;
+  font-family: Proxima Nova, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px;
+
+}
+
+.sorting {
+  position: absolute;
+  right: 150px;
+}
+
+.sortBy {
+  color: #333;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  margin-right: 24px;
+}
+
+.options {
+  width: 165px;
+  height: 40px;
+  border: 1px solid #DEDEDE;
+  background: #FFF;
+  color: #515356;
+  font-family: Proxima Nova, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+
+.filterAndProducts {
+  display: flex;
+  justify-content: space-around;
+}
+
+.filter {
+  width: 260px;
+  margin-top: 50px;
+
+}
+
+.filterHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filters {
+  color: #33333A;
+  font-family: Proxima Nova,sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.reset {
+  color: #FF6008;
+  font-family: Proxima Nova, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 -2px 0 0 #F3F3F3;
+}
+
+
+.apparelsTabs {
+  display: flex;
+  flex-direction: column;
+  color: #33333A;
+  font-family: Proxima Nova,sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+.apparelsTabs span::before {
+  content: url("icons/Path 2.png");
+  margin-right: 15px;
+}
+
+.categoryRoboto400 {
+  color: #333;
+  font-family: Roboto,sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.products {
+  display: flex;
+  flex-flow: wrap;
+  width: 848px;
+  gap: 29px;
+
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+}
+
+.productName {
+  width: 263px;
+  color: #33333A;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.price {
+  width: 263px;
+  color: #33333A;
+  font-family: Proxima Nova, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.footer {
+  width: 1440px;
+  height: 320px;
+  background: #33333A;
+}
+
+
