@@ -1,0 +1,37 @@
+.products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    color: #33333A;
+}
+
+.product-name {
+    width: 263px;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.product-price {
+    width: 263px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.loading {
+    display: flex;
+    gap: 10px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 45%;
+    margin-bottom: 60px;
+    cursor: pointer;
+}

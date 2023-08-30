@@ -1,0 +1,29 @@
+.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background: #F3F3F3;
+}
+
+.slider-bitmap {
+    position: absolute;
+    right: 7%;
+}
+
+.slider-apparels {
+    position: relative;
+    color: #33333A;
+    font-family: Roboto, sans-serif;
+    font-size: 60px;
+    line-height: 90px;
+}
+
+.slider-description {
+    position: relative;
+    width: 555px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}

@@ -1,182 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Matter</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Matter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/slider.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="stylesheet" href="style/content.css">
+    <link rel="stylesheet" href="style/footer.css">
 </head>
 <body>
-<div class="header">Free shipping for orders above USD 150</div>
+<div class="underline">Free shipping for orders above USD 150</div>
 
-<div class="navigation">
-    <div class="tabs">
-    <img src="img/Logo.png" alt="logo" class="logo">
-    <a href="#" class="tab active">SHOP</a>
-    <a href="#" class="tab">FABRIC</a>
-    <a href="#" class="tab">JOURNAL</a>
-    <a href="#" class="tab">ABOUT</a>
-  </div>
+<div class="header">
+    <div class="header-sections">
+        <a href="#" class="logo"><img src="img/Logo.png" alt="logo" class="logo"></a>
+        <a href="#" class="header-section active">SHOP</a>
+        <a href="#" class="header-section">FABRIC</a>
+        <a href="#" class="header-section">JOURNAL</a>
+        <a href="#" class="header-section">ABOUT</a>
+    </div>
 
-  <div class="clientTabs">
-   <span class="user">
-     <span class="welcome">Welcome, Alex</span>
-     <img src="img/Rectangle%202%20Copy%202.png" alt="userPhoto">
-   </span>
-    <a href="#"><img src="icons/002-magnifying-glass.png" alt="search"></a>
-    <a href="#"> <img src="icons/001-heart-outline.png" alt="heart"></a>
-    <a href="#"><img src="icons/icons8-shopping-bag-20.png" alt="shopping-bag"></a>
-  </div>
+    <div class="header-user-sections">
+        <span class="user">
+            <span class="welcome">Welcome, Alex</span>
+            <img src="img/user-photo.png" alt="userPhoto">
+        </span>
+        <a href="#"><img src="icons/002-magnifying-glass.png" alt="search"></a>
+        <a href="#"> <img src="icons/001-heart-outline.png" alt="heart"></a>
+        <a href="#"><img src="icons/icons8-shopping-bag-20.png" alt="shopping-bag"></a>
+    </div>
 </div>
 
-<div class="mainPhoto">
-  <img src="img/Bitmap.png" alt="bitmap" class="womenPhoto">
-  <span class="apparels">Apparels</span>
-  <span class="description">White Gold began gaining popularity in the early 1900’s as an alternative to platinum. </span>
-
+<div class="slider">
+    <img src="img/Bitmap.png" alt="bitmap" class="slider-bitmap">
+    <span class="slider-apparels">Apparels</span>
+    <span class="slider-description">White Gold began gaining popularity in the early 1900’s as an alternative to platinum. </span>
 </div>
 
 <div class="bar">
-  <span class="women">Women</span>
-  <span class="sorting">
-    <span class="sortBy">Sort By</span>
-  <label>
-    <select class="options">
-      <option value="" selected>Price</option>
-      <option value="">Collection</option>
-      <option value="">Brand</option>
-      <option value="">Color</option>
-    </select>
-  </label>
+    <div class="bread-crumbs">
+        <a href="#">Woman</a>
+    </div>
+    <span class="sorting">
+        <span class="sortBy">Sort By</span>
+          <label>
+            <select class="options">
+              <option value="" selected>Price</option>
+              <option value="">Collection</option>
+              <option value="">Brand</option>
+              <option value="">Color</option>
+            </select>
+          </label>
   </span>
-
-
 </div>
-<div class="filterAndProducts">
-
-  <div class="filter">
-    <div class="filterHeader">
-      <span class="filters">filters</span>
-      <span class="reset">reset</span>
-    </div>
-
-    <div class="categories">
-      <span class="categoryRoboto400">Apparels</span>
-
-      <span class="categoryTabs">
-        <span>pants</span>
-        <span>Jumpsuits</span>
-        <span>Shorts</span>
-        <span>Tops</span>
-      </span>
-
-      <span class="categoryRoboto400">Accessories</span>
-      <span class="categoryRoboto400">Houseware</span>
-      <span class="categoryRoboto400">Others</span>
-      <span class="categoryRoboto400">Techniques</span>
-      <span class="categoryRoboto400">Styles</span>
-
-      <span class="categoryTabs">
-        <span>Bold</span>
-        <span>Monochrome</span>
-        <span>Shorts</span>
-        <span>Neutrals</span>
-      </span>
-      <div class="sizeFilter">
-        <span>- sizes</span>
-        <div class="size">
-          <span>1</span>
-          <span class="active">2</span>
-          <span>3</span>
-          <span>4</span>
+<div class="filter-and-products">
+    <div class="filter">
+        <div class="filter-header">
+            <span class="filters">filters</span>
+            <span class="reset">reset</span>
         </div>
-        <span>see our Sizing Guide</span>
-      </div>
-    </div>
-  </div>
+        <div class="categories">
+            <span class="category">Apparels</span>
+            <span class="category-sections">
+                <span>pants</span>
+                <span>Jumpsuits</span>
+                <span>Shorts</span>
+                <span>Tops</span>
+            </span>
+            <span class="category">Accessories</span>
+            <span class="category">Houseware</span>
+            <span class="category">Others</span>
+            <span class="category">Techniques</span>
+            <span class="category">Styles</span>
 
-  <div class="products">
-    <div class="product">
-      <img src="img/crop_1c15e9d9325c645391d65ad4037438c1.png" alt="productPhoto">
-      <span class="productName">Pueraria Mirifica And Study Phyto Estrogens</span>
-      <span class="price">$599.00</span>
-    </div>
-
-    <div class="product">
-      <img src="img/crop_1c15e9d9325c645391d65ad4037438c1.png" alt="productPhoto">
-      <span class="productName">Pueraria Mirifica And Study Phyto Estrogens</span>
-      <span class="price">$599.00</span>
-    </div>
-
-    <div class="product">
-      <img src="img/crop_1c15e9d9325c645391d65ad4037438c1.png" alt="productPhoto">
-      <span class="productName">Pueraria Mirifica And Study Phyto Estrogens</span>
-      <span class="price">$599.00</span>
-    </div>
-
-    <div class="product">
-      <img src="img/crop_1c15e9d9325c645391d65ad4037438c1.png" alt="productPhoto">
-      <span class="productName">Pueraria Mirifica And Study Phyto Estrogens</span>
-      <span class="price">$599.00</span>
-    </div>
-
-    <div class="product">
-      <img src="img/crop_1c15e9d9325c645391d65ad4037438c1.png" alt="productPhoto">
-      <span class="productName">Pueraria Mirifica And Study Phyto Estrogens</span>
-      <span class="price">$599.00</span>
+            <span class="category-sections">
+                <span>Bold</span>
+                <span>Monochrome</span>
+                <span>Shorts</span>
+                <span>Neutrals</span>
+            </span>
+            <div class="size-filter">
+                <span>- sizes</span>
+                <div class="sizes">
+                    <span>1</span>
+                    <span class="active">2</span>
+                    <span>3</span>
+                    <span>4</span>
+                </div>
+                <span>see our Sizing Guide</span>
+            </div>
+        </div>
     </div>
 
-    <div class="product">
-      <img src="img/crop_1c15e9d9325c645391d65ad4037438c1.png" alt="productPhoto">
-      <span class="productName">Pueraria Mirifica And Study Phyto Estrogens</span>
-      <span class="price">$599.00</span>
-    </div>
+    <div class="products">
+        <div class="product">
+            <img src="img/product-name.png" alt="productPhoto">
+            <div class="product-name">Pueraria Mirifica And Study Phyto Estrogens</div>
+            <div class="product-price">$599.00</div>
+        </div>
 
-    <div class="product">
-      <img src="img/crop_1c15e9d9325c645391d65ad4037438c1.png" alt="productPhoto">
-      <span class="productName">Pueraria Mirifica And Study Phyto Estrogens</span>
-      <span class="price">$599.00</span>
-    </div>
+        <div class="product">
+            <img src="img/product-name.png" alt="productPhoto">
+            <div class="product-name">Pueraria Mirifica And Study Phyto Estrogens</div>
+            <div class="product-price">$599.00</div>
+        </div>
 
-    <div class="product">
-      <img src="img/crop_1c15e9d9325c645391d65ad4037438c1.png" alt="productPhoto">
-      <span class="productName">Pueraria Mirifica And Study Phyto Estrogens</span>
-      <span class="price">$599.00</span>
-    </div>
+        <div class="product">
+            <img src="img/product-name.png" alt="productPhoto">
+            <div class="product-name">Pueraria Mirifica And Study Phyto Estrogens</div>
+            <div class="product-price">$599.00</div>
+        </div>
 
-    <div class="product">
-      <img src="img/crop_1c15e9d9325c645391d65ad4037438c1.png" alt="productPhoto">
-      <span class="productName">Pueraria Mirifica And Study Phyto Estrogens</span>
-      <span class="price">$599.00</span>
-    </div>
+        <div class="product">
+            <img src="img/product-name.png" alt="productPhoto">
+            <div class="product-name">Pueraria Mirifica And Study Phyto Estrogens</div>
+            <div class="product-price">$599.00</div>
+        </div>
 
-    <div class="product">
-      <img src="img/crop_1c15e9d9325c645391d65ad4037438c1.png" alt="productPhoto">
-      <span class="productName">Pueraria Mirifica And Study Phyto Estrogens</span>
-      <span class="price">$599.00</span>
-    </div>
+        <div class="product">
+            <img src="img/product-name.png" alt="productPhoto">
+            <div class="product-name">Pueraria Mirifica And Study Phyto Estrogens</div>
+            <div class="product-price">$599.00</div>
+        </div>
 
-    <div class="product">
-      <img src="img/crop_1c15e9d9325c645391d65ad4037438c1.png" alt="productPhoto">
-      <span class="productName">Pueraria Mirifica And Study Phyto Estrogens</span>
-      <span class="price">$599.00</span>
-    </div>
+        <div class="product">
+            <img src="img/product-name.png" alt="productPhoto">
+            <div class="product-name">Pueraria Mirifica And Study Phyto Estrogens</div>
+            <div class="product-price">$599.00</div>
+        </div>
 
-    <div class="product">
-      <img src="img/crop_1c15e9d9325c645391d65ad4037438c1.png" alt="productPhoto">
-      <span class="productName">Pueraria Mirifica And Study Phyto Estrogens</span>
-      <span class="price">$599.00</span>
-    </div>
+        <div class="product">
+            <img src="img/product-name.png" alt="productPhoto">
+            <div class="product-name">Pueraria Mirifica And Study Phyto Estrogens</div>
+            <div class="product-price">$599.00</div>
+        </div>
 
-    <div class="loading">
-      <img src="icons/refresh.png" alt="reflesh">
-      <span>Loading</span>
+        <div class="product">
+            <img src="img/product-name.png" alt="productPhoto">
+            <div class="product-name">Pueraria Mirifica And Study Phyto Estrogens</div>
+            <div class="product-price">$599.00</div>
+        </div>
+
+        <div class="product">
+            <img src="img/product-name.png" alt="productPhoto">
+            <div class="product-name">Pueraria Mirifica And Study Phyto Estrogens</div>
+            <div class="product-price">$599.00</div>
+        </div>
+
+        <div class="product">
+            <img src="img/product-name.png" alt="productPhoto">
+            <div class="product-name">Pueraria Mirifica And Study Phyto Estrogens</div>
+            <div class="product-price">$599.00</div>
+        </div>
+
+        <div class="product">
+            <img src="img/product-name.png" alt="productPhoto">
+            <div class="product-name">Pueraria Mirifica And Study Phyto Estrogens</div>
+            <div class="product-price">$599.00</div>
+        </div>
+
+        <div class="product">
+            <img src="img/product-name.png" alt="productPhoto">
+            <div class="product-name">Pueraria Mirifica And Study Phyto Estrogens</div>
+            <div class="product-price">$599.00</div>
+        </div>
+
+        <div class="loading">
+            <img src="icons/refresh.png" alt="reflesh">
+            <div>Loading</div>
+        </div>
     </div>
-  </div>
 </div>
 
-<div class="footer"></div>
+<div class="footer">
+
+</div>
 </body>
 </html>

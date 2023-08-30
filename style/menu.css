@@ -1,0 +1,134 @@
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+    height: 60px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.bread-crumbs {
+    color: #030303;
+    font-size: 18px;
+}
+
+.sortBy {
+    color: #333;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    line-height: 40px;
+    padding-right: 24px;
+}
+
+.options {
+    width: 165px;
+    height: 40px;
+    border: 1px solid #DEDEDE;
+    color: #515356;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+.filter-and-products {
+    display: flex;
+    gap: 30px;
+    padding: 40px 150px 0;
+}
+
+.filter {
+    width: 260px;
+}
+
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filters {
+    color: #33333A;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.reset {
+    color: #FF6008;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 -2px 0 0 #F3F3F3;
+}
+
+
+.category-sections {
+    display: flex;
+    flex-direction: column;
+    color: #33333A;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.category-sections span::before {
+    content: url("../icons/Path 2.png");
+    margin-right: 15px;
+}
+
+.category {
+    color: #333;
+    font-family: Roboto,sans-serif;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.size-filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 260px;
+    height: 145px;
+    box-shadow: 0 -2px 0 0 #F3F3F3;
+    color: #33333A;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.size-filter > :first-child {
+    letter-spacing: 1px;
+}
+
+.size-filter > :last-child {
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-left: 14px;
+}
+
+.sizes {
+    display: flex;
+    gap: 10px;
+    padding-left: 14px;
+}
+.size-filter .sizes span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    color: #515356;
+    font-size: 14px;
+    line-height: 20px;
+    border: 1px solid #F3F3F3;
+    cursor: pointer;
+}
+
+.size-filter .sizes span.active{
+    border: 1px solid #DEDEDE;
+    background: #F3F3F3;
+}

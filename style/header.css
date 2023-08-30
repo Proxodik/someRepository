@@ -1,0 +1,56 @@
+.underline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background: #33333A;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 150px;
+}
+
+.header-section.active {
+    color: #FF5E1B;
+}
+
+.header-sections {
+    display: flex;
+    gap: 50px;
+}
+
+.header-section {
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #33333A;
+}
+
+.logo {
+    display: flex;
+    align-self: baseline;
+}
+
+.header-user-sections {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.user {
+    display: flex;
+    gap: 10px;
+}
+
+.welcome {
+    color: #33333A;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
