@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   font-family: "Proxima Nova", sans-serif;
   font-size: 12px;
@@ -17,6 +18,11 @@ a {
   font-family: Proxima Nova;
   font-weight: 400;
   src: url("../fonts/ProximaNova-Regular.ttf");
+}
+
+@font-face {
+  font-family: Museo Sans Cyrl;
+  src: url("../fonts/MuseoSansCyrl.otf");
 }
 
 

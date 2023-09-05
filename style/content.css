@@ -26,12 +26,10 @@
 
 .loading {
     display: flex;
+    justify-content: center;
     gap: 10px;
+    width: 100%;
     font-weight: 600;
     line-height: 20px;
     letter-spacing: 2px;
-    text-transform: uppercase;
-    padding-left: 45%;
-    margin-bottom: 60px;
-    cursor: pointer;
 }

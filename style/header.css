@@ -15,25 +15,32 @@
     padding: 0 150px;
 }
 
-.header-section.active {
-    color: #FF5E1B;
-}
-
-.header-sections {
+.header-pages {
     display: flex;
-    gap: 50px;
+    align-items: center;
+    gap: 40px;
 }
 
-.header-section {
+.header-page {
+
     font-weight: 600;
-    line-height: 40px;
     letter-spacing: 1px;
     color: #33333A;
 }
 
-.logo {
-    display: flex;
-    align-self: baseline;
+.header-page::after {
+    content: url("../icons/arrow-down.png");
+    padding-left: 5px;
+    text-align: center;
+
+}
+
+.header-page.active {
+    color: #FF5E1B;
+}
+
+.header-page.active::after {
+    content: url("../icons/arrow-Up-orange.png");
 }
 
 .header-user-sections {
@@ -52,5 +59,4 @@
     font-weight: 600;
     line-height: 40px;
     letter-spacing: 1px;
-    text-transform: uppercase;
 }

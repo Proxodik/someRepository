@@ -1,4 +1,38 @@
 .footer {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 150px;
     height: 320px;
     background: #33333A;
+    color: #DEDEDE;
+    line-height: 25px;
 }
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-link-header {
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    color: #DEDEDE;
+}
+
+.communication {
+    display: flex;
+}
+
+.copyright {
+    align-self: center;
+}
+
