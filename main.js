@@ -55,34 +55,54 @@ const filters = [
 filters.forEach(({name, items}) => {
     // create category
     const category = document.createElement('div');
-    const categoryName = document.createElement('p')
+    category.className = 'category';
 
+    const categoryName = document.createElement('div');
+    categoryName.className = 'category-header'
     categoryName.innerHTML = name;
-    category.classList.add('category');
-    category.append(categoryName)
+
+    const categorySections = document.createElement('div');
+    categorySections.className = 'category-sections';
+
+    category.append(categoryName);
+    category.append(categorySections);
 
     items.forEach(({name, items}) => {
-        // create sub-category
-        const subCategory = document.createElement('div');
-        const subCategoryName = document.createElement('a')
-        subCategoryName.innerHTML = name.toUpperCase();
-        subCategoryName.href = '#';
-        subCategory.classList.add('category-sections')
-        subCategory.append(subCategoryName)
-        category.append(subCategory);
+        const subCategorySections = document.createElement('div');
+        subCategorySections.className = 'sub-category-sections';
 
-        items.forEach((item) => {
-            const subSubCategory = document.createElement('div');
-            const subSubCategoryName = document.createElement('a')
-            subSubCategoryName.innerHTML = item.toUpperCase();
-            subSubCategoryName.href = '#';
-            subSubCategory.classList.add('sub-category-sections')
-            subSubCategory.append(subSubCategoryName)
-            subCategory.append(subSubCategory)
-            // create sub-sub-category and append into parent container
+        const subCategory = document.createElement('div');
+        subCategory.className = 'category-section';
+
+        const subCategoryName = document.createElement('div');
+        subCategoryName.className = 'sub-category-header'
+        subCategoryName.innerHTML = name.toUpperCase();
+
+        subCategory.append(subCategoryName);
+        subCategory.append(subCategorySections)
+        categorySections.append(subCategory);
+
+        items.forEach((name) => {
+            const subSubCategoryName = document.createElement('a');
+            subSubCategoryName.innerHTML = name.toUpperCase();
+            subSubCategoryName.href = name;
+
+            subCategorySections.append(subSubCategoryName);
         })
-        category.append(subCategory)
     })
-    filterCategories.append(category)
+    filterCategories.append(category);
+})
+
+filterCategories.addEventListener('click', (event) => {
+    event.target.classList.toggle('open');
+
+    if (event.target.classList.contains('category-header') && !event.target.classList.contains('open')) {
+        const categorySections = event.target.nextSibling;
+        const openChildren = categorySections.querySelectorAll('.open');
+
+        openChildren.forEach((openChild) => {
+            openChild.classList.remove('open')
+        })
+    }
 })
 

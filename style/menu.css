@@ -66,40 +66,56 @@
 
 .category {
      color: #333;
-     font-family: Roboto,sans-serif;
-     font-size: 24px;
      line-height: 40px;
+
+}
+
+.category-header {
+    font-family: Roboto,sans-serif;
+    font-size: 24px;
+}
+
+.category-header::after {
+    content: url("../icons/category-arrow-up.png");
 }
 
 .category-sections {
     display: flex;
     flex-direction: column;
     color: #33333A;
-    line-height: 40px;
     letter-spacing: 1px;
     margin-left: 10px;
-    font-size: 12px;
 }
 
 
 
-.category-sections > a::before {
+.sub-category-header::before {
     content: url("../icons/arrow-right.png");
     margin-right: 15px;
 }
 
-.category-sections a {
-    color: #33333A;
+/*################   hide/show categories    ###############*/
+.category-header:not(.open) ~ .category-sections {
+    display: none;
 }
+
+.category-header.open::after{
+    content: url("../icons/category-arrow-down.png");
+}
+
+.sub-category-header:not(.open) ~ .sub-category-sections {
+    display: none;
+}
+
+.sub-category-header.open::before {
+    content: url("../icons/category-arrow-down.png");
+}
+
 
 .sub-category-sections {
     display: flex;
     flex-direction: column;
-    font-family: "Roboto", sans-serif;
-    line-height: 40px;
-    letter-spacing: 1px;
     margin-left: 40px;
-    font-size: 12px;
 }
 
 .sub-category-sections a {
