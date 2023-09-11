@@ -268,27 +268,24 @@ const filters = [
 filters.forEach(({name, items}) => {
     // create category
 
-    const category = createCategoryElement('category')
-    const categoryName = createCategoryElement('category-header', name);
-    const categorySections = createCategoryElement('category-sections')
+    const category = createCategoryElement('div','category')
+    const categoryName = createCategoryElement('div','category-header', name);
+    const categorySections = createCategoryElement('div','category-sections')
 
     category.append(categoryName);
     category.append(categorySections);
 
     items.forEach(({name, items}) => {
-        const subCategorySections = createCategoryElement('sub-category-sections');
-        const subCategory = createCategoryElement('category-section');
-        const subCategoryName = createCategoryElement('sub-category-header', name.toUpperCase());
+        const subCategorySections = createCategoryElement('div','sub-category-sections');
+        const subCategory = createCategoryElement('div','category-section');
+        const subCategoryName = createCategoryElement('div','sub-category-header', name);
 
         subCategory.append(subCategoryName);
         subCategory.append(subCategorySections)
         categorySections.append(subCategory);
 
         items.forEach((name) => {
-            const subSubCategoryName = document.createElement('a');
-            subSubCategoryName.innerHTML = name.toUpperCase();
-            subSubCategoryName.href = name;
-
+            const subSubCategoryName = createCategoryLink('a', name, name);
             subCategorySections.append(subSubCategoryName);
         })
     })
@@ -308,10 +305,17 @@ filterCategories.addEventListener('click', (event) => {
     }
 })
 
-function createCategoryElement(className, description = '') {
-    const category = document.createElement('div');
+function createCategoryElement(tag, className, description = '') {
+    const category = document.createElement(tag);
     category.className = className;
     category.innerHTML = description;
     return category;
+}
+
+function createCategoryLink(tag, href, description = '') {
+    const link = document.createElement(tag);
+    link.href = name;
+    link.innerHTML = description;
+    return link;
 }
 
