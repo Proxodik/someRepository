@@ -5,13 +5,13 @@
     gap: 30px;
 }
 
-.product {
+.productContainer {
     display: flex;
     flex-direction: column;
     color: #33333A;
 }
 
-.product-name {
+.product {
     width: 263px;
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -33,4 +33,8 @@
     line-height: 20px;
     letter-spacing: 2px;
     cursor: pointer;
+}
+
+.loading::before {
+    content: url("../icons/refresh.png");
 }

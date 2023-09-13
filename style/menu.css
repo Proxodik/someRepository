@@ -67,28 +67,31 @@
     box-shadow: 0 -2px 0 0 #F3F3F3;
 }
 
-.category {
+.categoryContainer {
      color: #333;
      line-height: 40px;
 
 }
 
-.category-header {
+.category {
     position: relative;
     font-family: Roboto,sans-serif;
     font-size: 24px;
     cursor: pointer;
 }
 
-.category-header:hover {
+.category:hover {
     background: rgba(234, 230, 223, 0.84);
 
 }
 
-.category-header::after {
+.category::after {
     position: absolute;
+    line-height: 0;
+    top: 16px;
     right: 5px;
     content: url("../icons/category-arrow-up.png");
+    transition: 0.4s;
 }
 
 .category-sections {
@@ -100,38 +103,36 @@
     text-transform: uppercase;
 }
 
-.sub-category-header {
+.sub-category {
     cursor: pointer;
 }
 
-.sub-category-header:hover {
+.sub-category:hover {
     background: rgba(234, 230, 223, 0.84);
 }
 
-.sub-category-header::before {
+.sub-category::before {
     content: url("../icons/arrow-right.png");
     margin-right: 15px;
+    transition: 0.4s;
 }
 
 /*################   hide/show categories    ###############*/
-.category-header:not(.open) ~ .category-sections {
+.category:not(.open) ~ .category-sections {
     display: none;
 }
 
-.category-header.open::after{
-    position: absolute;
-    right: 5px;
-    display: inline-block;
+.category.open::after{
+    line-height: 0;
     content: url("../icons/category-arrow-up.png");
-    transform-origin: center;
     transform: rotate(180deg);
 }
 
-.sub-category-header:not(.open) ~ .sub-category-sections {
+.sub-category:not(.open) ~ .sub-category-sections {
     display: none;
 }
 
-.sub-category-header.open::before {
+.sub-category.open::before {
     display: inline-block;
     content: url("../icons/arrow-right.png");
     transform-origin: center;
@@ -146,12 +147,16 @@
     text-transform: uppercase;
 }
 
-.sub-category-sections a {
+.subSubCategory {
     color: #666;
     cursor: pointer;
 }
 
-.sub-category-sections a:hover {
+.subSubCategory.open {
+    color: #FF6008;
+}
+
+.subSubCategory:hover {
     background: rgba(234, 230, 223, 0.84);
 }
 .size-filter {
