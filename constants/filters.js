@@ -5,41 +5,41 @@ const filters = [
             {
                 name: "Pants",
                 items: [
-                    "Sideswept Dhoti",
-                    "Side Longhi",
-                    "Modern Mope",
-                    "Easy Dhoti",
-                    "Classic Wideleg",
+                    {id:1, name: "Sideswept Dhoti"},
+                    {id:2, name: "Side Longhi"},
+                    {id:3, name: "Modern Mope"},
+                    {id:4, name: "Easy Dhoti"},
+                    {id:5, name: "Classic Wideleg"},
                 ]
             },
             {
                 name: "Jumpsuits",
                 items: [
-                    "item-1",
-                    "item-2",
-                    "item-3",
-                    "item-4",
-                    "item-5",
+                    {id:6, name: "Sideswept Dhoti"},
+                    {id:7, name: "Side Longhi"},
+                    {id:8, name: "Modern Mope"},
+                    {id:9, name: "Easy Dhoti"},
+                    {id:10, name: "Classic Wideleg"},
                 ]
             },
             {
                 name: "Shorts",
                 items: [
-                    "item-1",
-                    "item-2",
-                    "item-3",
-                    "item-4",
-                    "item-5",
+                    {id:11, name: "Sideswept Dhoti"},
+                    {id:12, name: "Side Longhi"},
+                    {id:13, name: "Modern Mope"},
+                    {id:14, name: "Easy Dhoti"},
+                    {id:15, name: "Classic Wideleg"},
                 ]
             },
             {
                 name: "Tops",
                 items: [
-                    "item-1",
-                    "item-2",
-                    "item-3",
-                    "item-4",
-                    "item-5",
+                    {id:16, name: "Sideswept Dhoti"},
+                    {id:17, name: "Side Longhi"},
+                    {id:18, name: "Modern Mope"},
+                    {id:19, name: "Easy Dhoti"},
+                    {id:20, name: "Classic Wideleg"},
                 ]
             }
         ]

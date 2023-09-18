@@ -12,10 +12,25 @@
 }
 
 .product {
+    position: relative;
     width: 263px;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: 25px;
+}
+
+.product-photo {
+    width: 260px;
+    height: 390px;
+}
+
+.label-new {
+    position: absolute;
+    margin: 10px 10px ;
+    background: #FF5E1B;
+    color: #FFF;
+    padding: 3px 12px;
+    border-radius: 10px;
 }
 
 .product-price {
@@ -28,7 +43,6 @@
     display: flex;
     justify-content: center;
     gap: 10px;
-    width: 100%;
     font-weight: 600;
     line-height: 20px;
     letter-spacing: 2px;

@@ -1,11 +1,11 @@
 import content from "../constants/productsContent.js";
+import {activeCategoryId} from "./filter.js";
 
-const products = document.getElementById('products');
 
-content.forEach((productContent) => {
-    const product = createProduct(productContent);
-    products.prepend(product);
-})
+let products = document.getElementById('products');
+
+createContent();
+
 
 function createProduct(productContent) {
     const product = document.createElement('div');
@@ -13,6 +13,7 @@ function createProduct(productContent) {
 
     const productImg = document.createElement('img');
     productImg.src = productContent.productImg;
+    productImg.className = 'product-photo'
 
     const productName = document.createElement('div');
     productName.innerHTML = productContent.productName;
@@ -22,9 +23,15 @@ function createProduct(productContent) {
     productPrice.innerHTML = productContent.productPrice;
     productPrice.className = 'product-price';
 
-    product.dataset.category = productContent.category;
-    product.dataset.subCategory = productContent.subCategory;
-    product.dataset.subSubCategory = productContent.subSubCategory;
+    product.dataset.category = productContent.categoryId;
+
+    if (productContent.new) {
+        const label = document.createElement('div');
+        label.innerHTML = 'NEW';
+        label.className = 'label-new'
+        product.append(label);
+    }
+
 
     product.append(productImg);
     product.append(productName);
@@ -32,3 +39,18 @@ function createProduct(productContent) {
 
     return product;
 }
+
+function createContent() {
+    products.innerHTML = '';
+    const filter = content.filter( (item) => activeCategoryId ? item.categoryId === +activeCategoryId : true);
+    filter.forEach((productContent) => {
+            const product = createProduct(productContent);
+            products.append(product);
+        })
+}
+
+document.addEventListener('active-category', () => {
+    createContent();
+});
+
+

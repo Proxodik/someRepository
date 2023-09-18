@@ -128,7 +128,7 @@
     transform: rotate(180deg);
 }
 
-.sub-category:not(.open) ~ .sub-category-sections {
+.sub-category:not(.open) ~ .sub-category-links {
     display: none;
 }
 
@@ -140,23 +140,23 @@
 }
 
 
-.sub-category-sections {
+.sub-category-links {
     display: flex;
     flex-direction: column;
     margin-left: 40px;
     text-transform: uppercase;
 }
 
-.subSubCategory {
+.category-link {
     color: #666;
     cursor: pointer;
 }
 
-.subSubCategory.open {
+.category-link.open {
     color: #FF6008;
 }
 
-.subSubCategory:hover {
+.category-link:hover {
     background: rgba(234, 230, 223, 0.84);
 }
 .size-filter {
