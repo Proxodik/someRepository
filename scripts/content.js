@@ -1,56 +1,76 @@
-import content from "../constants/productsContent.js";
+import {newContent} from "../constants/productsContent.js";
 import {activeCategoryId} from "./filter.js";
+import {createElement} from "../tools/creatingElements.js";
+
+let selectedSize = '';
+
+const selectedCategoriesList = document.getElementsByClassName('selectedCategories')[0];
+const resetButton = document.getElementsByClassName('reset')[0];
+const sizesButtons = document.getElementsByClassName('sizes')[0];
 
 
-let products = document.getElementById('products');
+const products = document.getElementById('products');
 
-createContent();
+createContent(activeCategoryId, selectedSize);
 
+resetButton.addEventListener('click', () => {
+    selectedCategoriesList.innerHTML = '';
+    selectedSize = '';
+    const activeButton = document.getElementsByClassName('active')[0];
+    activeButton.classList.remove('active');
+
+    const selectedCategories = document.querySelectorAll('.open');
+    selectedCategories.forEach((selectedCategory) => {
+        selectedCategory.classList.remove('open')
+    })
+    createContent('', selectedSize)
+})
 
 function createProduct(productContent) {
-    const product = document.createElement('div');
-    product.className = 'product';
 
-    const productImg = document.createElement('img');
-    productImg.src = productContent.productImg;
-    productImg.className = 'product-photo'
-
-    const productName = document.createElement('div');
-    productName.innerHTML = productContent.productName;
-    productName.className = 'product-name';
-
-    const productPrice = document.createElement('div');
-    productPrice.innerHTML = productContent.productPrice;
-    productPrice.className = 'product-price';
-
+    const product = createElement({tag: 'div', className: 'product'});
     product.dataset.category = productContent.categoryId;
+    product.dataset.size = productContent.size;
+
+    const productImg = createElement({tag: 'img', src: productContent.productImg, className: 'product-photo' });
+
+    const productName = createElement({tag: 'p', innerHTML: productContent.productName, className: 'product-name'});
+
+    const productPrice = createElement({tag: 'span', innerHTML: productContent.productPrice, className: 'product-price'});
 
     if (productContent.new) {
-        const label = document.createElement('div');
-        label.innerHTML = 'NEW';
-        label.className = 'label-new'
-        product.append(label);
+        const labelNew = createElement({tag: 'span', innerHTML: 'NEW', className: 'label-new'});
+        product.append(labelNew);
     }
 
-
-    product.append(productImg);
-    product.append(productName);
-    product.append(productPrice);
+    product.append(productImg, productName, productPrice);
 
     return product;
 }
 
-function createContent() {
+function createContent(activeCategoryId, selectedSize) {
     products.innerHTML = '';
-    const filter = content.filter( (item) => activeCategoryId ? item.categoryId === +activeCategoryId : true);
-    filter.forEach((productContent) => {
-            const product = createProduct(productContent);
-            products.append(product);
-        })
+
+    const filteredContent = newContent
+        .filter( (item) => activeCategoryId ? item.categoryId === +activeCategoryId : true)
+        .filter((item) =>  selectedSize ? item.size.some(size => size === +selectedSize) : true)
+        .map((productContent) => createProduct(productContent));
+
+    products.append(...filteredContent);
+
 }
 
-document.addEventListener('active-category', () => {
-    createContent();
-});
+document.addEventListener('active-category', (event) =>  createContent(event.detail.id, selectedSize));
+
+sizesButtons.addEventListener('click', (event) => {
+    if (event.target.classList.contains('size-button')) {
+        const activeButton = document.getElementsByClassName('active')[0];
+        activeButton && activeButton.classList.remove('active');
+
+        event.target.classList.add('active');
+        selectedSize = event.target.innerHTML;
+        createContent(activeCategoryId, selectedSize);
+    }
+})
 
 

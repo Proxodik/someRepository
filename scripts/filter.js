@@ -1,4 +1,7 @@
 import filters from "../constants/filters.js";
+import {createElement} from "../tools/creatingElements.js";
+
+const selectedCategoriesList = document.getElementsByClassName('selectedCategories')[0];
 
 const filterCategories = document.querySelector('.categories');
 
@@ -6,28 +9,32 @@ let activeCategoryId = '';
 
 
 filters.forEach(({name, items}) => {
+    const category = createElement({tag: 'div', className: 'categoryContainer'});
 
-    const category = createCategoryElement('div','categoryContainer')
-    const categoryName = createCategoryElement('div','category', name);
-    const categorySections = createCategoryElement('div','category-sections')
+    const categoryName = createElement({tag: 'span', className: 'category', innerHTML: name});
 
-    category.append(categoryName);
-    category.append(categorySections);
+    const categorySections = createElement({tag: 'div', className: 'category-sections'})
+
+    category.append(categoryName, categorySections);
 
     items.forEach(({name, items}) => {
-        const subCategorySections = createCategoryElement('div','sub-category-links');
-        const subCategory = createCategoryElement('div','category-section');
-        const subCategoryName = createCategoryElement('div','sub-category', name);
+        const subCategorySections = createElement({tag: 'div', className: 'sub-category-links'});
 
-        subCategory.append(subCategoryName);
-        subCategory.append(subCategorySections)
+        const subCategory = createElement({tag: 'div', className: 'category-section'});
+
+        const subCategoryName = createElement({tag: 'span', className: 'sub-category', innerHTML: name});
+
+        subCategory.append(subCategoryName, subCategorySections);
         categorySections.append(subCategory);
 
-        items.forEach((name) => {
-            const categoryLink = createCategoryLink('a', name, 'category-link', name.id);
+        items.forEach((item) => {
+            const categoryLink = createElement({tag: 'a', className: 'category-link', innerHTML: item.name});
+            categoryLink.dataset.categoryId = item.id;
+
             subCategorySections.append(categoryLink);
-        })
-    })
+        });
+    });
+
     filterCategories.append(category);
 })
 
@@ -37,20 +44,22 @@ filterCategories.addEventListener('click', (event) => {
 
     event.target.classList.toggle('open');
 
+
     if (event.target.classList.contains('open')) {
         activeCategoryId = event.target.dataset.categoryId;
+
     }else{
         activeCategoryId = '';
     }
 
-    if (event.target.classList.contains('category') && !event.target.classList.contains('open')) {
-        const categorySections = event.target.nextSibling;
-        const openChildren = categorySections.querySelectorAll('.open');
-
-        openChildren.forEach((openChild) => {
-            openChild.classList.remove('open')
-        })
-    }
+    // if (event.target.classList.contains('category') && !event.target.classList.contains('open')) {
+    //     const categorySections = event.target.nextElementSibling;
+    //     const openChildren = categorySections.querySelectorAll('.open');
+    //
+    //     openChildren.forEach((openChild) => {
+    //         openChild.classList.remove('open')
+    //     })
+    // }
 
     if (event.target.classList.contains('category-link')) {
         const categoryLinks = filterCategories.querySelectorAll('.category-link');
@@ -59,7 +68,10 @@ filterCategories.addEventListener('click', (event) => {
                 link.classList.remove('open');
             }
         })
+
     }
+    showSelectedCategories();
+
 
     event.target.dispatchEvent(new CustomEvent("active-category", {
         bubbles: true,
@@ -67,22 +79,19 @@ filterCategories.addEventListener('click', (event) => {
     }));
 })
 
+function showSelectedCategories () {
+    selectedCategoriesList.innerHTML = '';
+    const selectedCategories = document.querySelectorAll('.open');
 
-function createCategoryElement(tag, className, description = '') {
-    const category = document.createElement(tag);
-    category.className = className;
-    category.innerHTML = description;
-    return category;
-}
+    selectedCategories.forEach((category) => {
+        const selectedCategory = document.createElement('span');
+        selectedCategory.className = 'selectedCategory'
+        selectedCategory.innerHTML = category.innerHTML;
 
-function createCategoryLink(tag, description = '', className, id) {
-    const link = document.createElement(tag);
-    link.className = className
-    link.href = description.name;
-    link.innerHTML = description.name;
-    link.dataset.categoryId = id;
-    return link;
+        selectedCategoriesList.append(selectedCategory);
+    })
 }
 
 
 export {activeCategoryId}
+
