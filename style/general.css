@@ -17,7 +17,6 @@ a {
 button {
   border: none;
   background: transparent;
-  display: inline-block;
   font-family: Proxima Nova, sans-serif;
   font-size: 12px;
   cursor: pointer;

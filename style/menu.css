@@ -53,17 +53,32 @@
     color: #33333A;
     letter-spacing: 1px;
     text-transform: uppercase;
+    width: 140px;
+
 }
 
 .selectedCategory {
-    display: block;
+    display: flex;
+    justify-content: space-between;
     text-transform: none;
-    padding-top: 2px;
+    cursor: pointer; 
+    padding: 5px 2px;
+    border: 1px solid #030303;
+    border-radius: 6px;
+    background: #cec5c5;
 }
 
-.selectedCategory:before {
-    content: '- ';
+
+
+.close-category {
+    background: #8f8f96;
+    color: #733838;
+    border-radius: 5px;
+    padding: 0 4px;
+    cursor: pointer;
+
 }
+
 
 .reset {
     color: #FF6008;
@@ -118,6 +133,7 @@
 .sub-category {
     cursor: pointer;
     display: block;
+    position: relative;
 }
 
 .sub-category:hover {
@@ -126,14 +142,16 @@
 
 .sub-category::before {
     content: url("../icons/arrow-right.png");
-    margin-right: 15px;
+    position: absolute;
+    top: 14px;
+    left: -10px;
+    line-height: 0;
     transition: 0.4s;
+    transform-origin: center;
 }
 
 /*################   hide/show categories    ###############*/
-.open::before {
-    content: '- ';
-}
+
 .category:not(.open) ~ .category-sections {
     display: none;
 }
@@ -144,35 +162,52 @@
     transform: rotate(180deg);
 }
 
-.sub-category:not(.open) ~ .sub-category-links {
+.sub-category:not(.open) ~ .sub-category-inputs {
     display: none;
 }
 
 .sub-category.open::before {
-    display: inline-block;
     content: url("../icons/arrow-right.png");
+    left: -15px;
     transform-origin: center;
     transform: rotate(90deg);
 }
 
 
-.sub-category-links {
+.sub-category-inputs {
     display: flex;
     flex-direction: column;
     margin-left: 40px;
     text-transform: uppercase;
 }
 
-.category-link {
-    color: #666;
-    cursor: pointer;
+
+/*.category-input:checked ~ .text {*/
+/*    color: #FF5E1B;*/
+/*}*/
+
+/*.category-input {*/
+/*    display: none;*/
+/*}*/
+
+form[name="categories"] input {
+    display: none;
 }
 
-.category-link.open {
+input:checked ~ p {
     color: #FF6008;
 }
 
-.category-link:hover {
+.category-label {
+    cursor: pointer;
+}
+
+.selectedCategory:not(:hover) .close-category {
+    display: none;
+}
+
+
+.category-label:hover {
     background: rgba(234, 230, 223, 0.84);
 }
 .size-filter {

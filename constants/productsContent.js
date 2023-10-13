@@ -2,32 +2,32 @@ import {createContentData} from "../tools/createdContentData.js";
 import {productsPrices} from "./productsPrice.js";
 import {productNames} from "./productsNames.js";
 import {productsPhotoSrc} from "./productsPhotoSrc.js";
-const productsSizes = [
-    [1, 2, 3, 4],
-    [1, 2],
-    [3, 4],
-    [1, 3],
-    [2, 4],
-    [1, 4],
-    [2, 3],
-    [1, 2, 3],
-    [2, 3, 4],
-    [1, 2, 4],
-    [1, 3, 4],
-    [2, 3, 4],
-    [1, 2, 3, 4],
-    [1, 2, 3],
-    [2, 3, 4],
-    [1, 2, 4],
-    [1, 3, 4],
-    [2, 4],
-    [3],
-    [1],
-];
 
-const newContent = createContentData(5,productNames,productsPhotoSrc, productsPrices, productsSizes);
+function createProductSizes(quantity) {
+    const sizesArray = [];
+    for (let i = 0; i < quantity; i++) {
+        const sizeArray = [];
+        const sizeArrayLength = Math.floor(Math.random() * 4 + 1);
 
-export {newContent};
+        while (sizeArray.length < sizeArrayLength) {
+            const size = Math.floor(Math.random() * 4 + 1);
+
+            if (!sizeArray.includes(size)) {
+                sizeArray.push(size);
+            }
+        }
+        sizesArray.push(sizeArray);
+    }
+    return sizesArray;
+}
+
+
+
+const productsSizes = createProductSizes(15);
+
+const content = createContentData(5,productNames,productsPhotoSrc, productsPrices, productsSizes);
+
+export {content};
 
 
 
