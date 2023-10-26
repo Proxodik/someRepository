@@ -1,0 +1,1334 @@
+[
+  {
+    "name": "Blue Jeans",
+    "price": 24.99,
+    "url": "https://m.media-amazon.com/images/I/61dtXZcg-AL._SX342_.jpg",
+    "categoryId": 12,
+    "size": [
+      1,
+      2,
+      3
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286520
+  },
+  {
+    "name": "Leather Jacket",
+    "price": 59.99,
+    "url": "https://www.allsaints.com/dw/image/v2/BHHD_PRD/on/demandware.static/-/Sites-allsaints-us-master-catalog/default/dw5dcc8a04/images/large/WL018N/5962/WL018N-5962-1.jpg?sw=2000&sh=2500&sm=fit&q=70",
+    "categoryId": 10,
+    "size": [
+      2,
+      4
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286521
+  },
+  {
+    "name": "Red Scarf",
+    "price": 14.99,
+    "url": "https://img.perniaspopupshop.com/catalog/product/k/s/KSTO092205_1.jpg?impolicy=listingimagenew",
+    "categoryId": 6,
+    "size": [
+      1,
+      3
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286522
+  },
+  {
+    "name": "High Heels",
+    "price": 39.99,
+    "url": "https://www.denisejoanne.com/wp-content/uploads/how-to-style-heels-casually.jpg",
+    "categoryId": 21,
+    "size": [
+      2,
+      4
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286523
+  },
+  {
+    "name": "Summer Dress",
+    "price": 29.99,
+    "url": "https://i.ebayimg.com/images/g/aLQAAOSwZOlj4QDD/s-l1200.webp",
+    "categoryId": 16,
+    "size": [
+      1,
+      2
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286524
+  },
+  {
+    "name": "Wool Sweater",
+    "price": 34.99,
+    "url": "https://i.etsystatic.com/24382870/r/il/ebf423/5294259601/il_fullxfull.5294259601_2bo6.jpg",
+    "categoryId": 9,
+    "size": [
+      1,
+      2,
+      3
+    ],
+    "new": false,
+    "gender": "male",
+    "dataCreation": 1697406286525
+  },
+  {
+    "name": "Black Trousers",
+    "price": 27.99,
+    "url": "https://images.unsplash.com/photo-1584864783592-f1d6d4fcd1d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8&w=1000&q=80",
+    "categoryId": 5,
+    "size": [
+      1,
+      2
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286526
+  },
+  {
+    "name": "White T-Shirt",
+    "price": 9.99,
+    "url": "https://pangaia.com/cdn/shop/products/Seaweed-Fiber-T-Shirt-Off-White-Model-Female-1.jpg?v=1662474774&width=1946",
+    "categoryId": 8,
+    "size": [
+      1,
+      3,
+      4
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286527
+  },
+  {
+    "name": "Denim Shorts",
+    "price": 19.99,
+    "url": "https://www.jessannkirby.com/wp-content/uploads/2018/07/Jess-Ann-Kirby-Agolde-Dee-Denim-Shorts-06246.jpg",
+    "categoryId": 14,
+    "size": [
+      2,
+      4
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286528
+  },
+  {
+    "name": "Running Shoes",
+    "price": 49.99,
+    "url": "https://m.media-amazon.com/images/S/mms-media-storage-prod/final/BrandPosts/brandPosts/8e8e8028-7b33-4629-871e-9b84b762213f/fe448874-5d89-4fdc-8634-c8d2cc1d7e35/media._SL480_.jpeg",
+    "categoryId": 27,
+    "size": [
+      1,
+      3
+    ],
+    "new": false,
+    "gender": "male",
+    "dataCreation": 1697406286529
+  },
+  {
+    "name": "Knit Beanie",
+    "price": 12.99,
+    "url": "https://i.etsystatic.com/18889371/r/il/163032/2914729335/il_570xN.2914729335_6m57.jpg",
+    "categoryId": 1,
+    "size": [
+      1,
+      2
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286530
+  },
+  {
+    "name": "Plaid Shirt",
+    "price": 32.99,
+    "url": "https://cdni.llbean.net/is/image/wim/298167_0_44?hei=1095&wid=950&resMode=sharp2&defaultImage=llbprod/A0211793_2",
+    "categoryId": 17,
+    "size": [
+      1,
+      3,
+      4
+    ],
+    "new": false,
+    "gender": "male",
+    "dataCreation": 1697406286531
+  },
+  {
+    "name": "Floral Blouse",
+    "price": 22.99,
+    "url": "https://media.boohoo.com/i/boohoo/gzz59394_yellow_xl_2/female-yellow-floral-chiffon-shirred-blouse",
+    "categoryId": 7,
+    "size": [
+      1,
+      2,
+      4
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286532
+  },
+  {
+    "name": "Cargo Pants",
+    "price": 29.99,
+    "url": "https://www.thefashionisto.com/wp-content/uploads/2023/05/Urban-Outfitters-The-Ragged-Priest-Tanker-Pant-Cargo-Pants.jpg",
+    "categoryId": 11,
+    "size": [
+      2,
+      3
+    ],
+    "new": false,
+    "gender": "male",
+    "dataCreation": 1697406286533
+  },
+  {
+    "name": "Striped Socks",
+    "price": 7.99,
+    "url": "https://www.socksnsocks.com/cdn/shop/products/CRMRT-STR002-3113_9_jpgnr_2048x.jpg?v=1571675262",
+    "categoryId": 6,
+    "size": [
+      2,
+      4
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286534
+  },
+  {
+    "name": "Silk Blazer",
+    "price": 54.99,
+    "url": "https://img.ltwebstatic.com/images3_pi/2022/04/19/16503580429e7b6fa6c149ffa5e58cd8967cacb8fc_thumbnail_720x.webp",
+    "categoryId": 9,
+    "size": [
+      1,
+      3
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286535
+  },
+  {
+    "name": "Leather Boots",
+    "price": 69.99,
+    "url": "https://www.drmartens.com/medias/mens-lace-up-boot.jpg?context=bWFzdGVyfHJvb3R8MTM1ODM0fGltYWdlL2pwZWd8aDRiL2g2Yy8xMDExMDYzMTExNjgzMC5qcGd8NGY4ODJkMmZlN2IwOWExY2RhNmQ3NjM3YTZiYjIyMjdmZWM1OThmMjUwNDFmNTk0NWQ5Zjg3YmZmM2Y4NTY2Nw",
+    "categoryId": 10,
+    "size": [
+      1,
+      4
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286536
+  },
+  {
+    "name": "Puffer Coat",
+    "price": 89.99,
+    "url": "https://i.pinimg.com/736x/05/86/16/058616f58e741e9a438f781949cd70a3.jpg",
+    "categoryId": 3,
+    "size": [
+      1,
+      2,
+      3
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286537
+  },
+  {
+    "name": "Velvet Skirt",
+    "price": 44.99,
+    "url": "https://media.boohoo.com/i/boohoo/fzz77870_berry_xl/female-berry-velvet-midaxi-skirt/?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
+    "categoryId": 12,
+    "size": [
+      2,
+      4
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286538
+  },
+  {
+    "name": "Ankle Boots",
+    "price": 37.99,
+    "url": "https://m.media-amazon.com/images/I/71Pn87Y1f1L._AC_UY300_.jpg",
+    "categoryId": 7,
+    "size": [
+      1,
+      3
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286539
+  },
+  {
+    "name": "Cotton Gloves",
+    "price": 9.99,
+    "url": "https://www.cotstyle.com/cdn/shop/files/67-137373_73d29531-825d-4336-8fa4-d7af7c08413d.jpg?v=1685537833",
+    "categoryId": 11,
+    "size": [
+      1,
+      4
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286540
+  },
+  {
+    "name": "Sun Hat",
+    "price": 14.99,
+    "url": "https://www.sungrubbies.com/cdn/shop/products/IMG_2236.jpg?v=1650341582",
+    "categoryId": 19,
+    "size": [
+      2,
+      3
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286541
+  },
+  {
+    "name": "Hiking Pants",
+    "price": 28.99,
+    "url": "https://tripole.in/cdn/shop/products/fa_1276_1024x1024@2x.jpg?v=1651048401",
+    "categoryId": 9,
+    "size": [
+      2,
+      4
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286542
+  },
+  {
+    "name": "Cashmere Cardigan",
+    "price": 49.99,
+    "url": "https://www.kristaelsta.com/wp-content/uploads/2014/12/grey-cashmere-cardigan-edith-feat-01.jpg",
+    "categoryId": 18,
+    "size": [
+      1,
+      3
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286543
+  },
+  {
+    "name": "Polo Shirt",
+    "price": 18.99,
+    "url": "https://www.medelita.com/media/catalog/product/m/e/mens-polo-bering-sea-1_7.jpg?quality=100&fit=bounds&height=749&width=712",
+    "categoryId": 1,
+    "size": [
+      1,
+      2
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286544
+  },
+  {
+    "name": "Linen Pants",
+    "price": 31.99,
+    "url": "https://img.abercrombie.com/is/image/anf/KIC_156-3030-0823-100_model1.jpg?policy=product-large",
+    "categoryId": 12,
+    "size": [
+      1,
+      2,
+      4
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286545
+  },
+  {
+    "name": "Ruffled Top",
+    "price": 21.99,
+    "url": "https://dearjohndenim.com/cdn/shop/products/DSH1124N2BAR-FRONT.jpg?v=1678237446&width=1080",
+    "categoryId": 7,
+    "size": [
+      2,
+      3
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286546
+  },
+  {
+    "name": "Khaki Cap",
+    "price": 12.99,
+    "url": "https://i.styleoholic.com/2021/03/a-chambray-shirt-grey-trousers-white-sneakers-and-a-coral-baseball-cap-for-spring.jpg",
+    "categoryId": 16,
+    "size": [
+      1,
+      4
+    ],
+    "new": false,
+    "gender": "male",
+    "dataCreation": 1697406286547
+  },
+  {
+    "name": "Yoga Leggings",
+    "price": 19.99,
+    "url": "https://cdn.shopify.com/s/files/1/0278/7259/1939/products/Yogamatters-Natural-Dyes-August-20222229_fd29df7a-39c7-41cd-8c2c-74a3934422b6.jpg?v=1664377741",
+    "categoryId": 27,
+    "size": [
+      1,
+      3,
+      4
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286548
+  },
+  {
+    "name": "Fleece Hoodie",
+    "price": 34.99,
+    "url": "https://underarmour.scene7.com/is/image/Underarmour/V5-1373880-465_FC?rp=standard-0pad%7CpdpMainDesktop&scl=1&fmt=jpg&qlt=75&resMode=sharp2&cache=on%2Con&bgc=F0F0F0&wid=566&hei=708&size=566%2C708",
+    "categoryId": 10,
+    "size": [
+      1,
+      2
+    ],
+    "new": false,
+    "gender": "male",
+    "dataCreation": 1697406286549
+  },
+  {
+    "name": "Fishnet Tights",
+    "price": 7.99,
+    "url": "https://i.pinimg.com/474x/f2/8f/8c/f28f8cd1019d1ba2b4d08796b67a1dc3.jpg",
+    "categoryId": 2,
+    "size": [
+      2,
+      3,
+      4
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286550
+  },
+  {
+    "name": "Sequin Dress",
+    "price": 44.99,
+    "url": "https://media.boohoo.com/i/boohoo/azz21299_nude_xl/female-nude-sequin-long-sleeve-bodycon-dress",
+    "categoryId": 7,
+    "size": [
+      1,
+      2
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286551
+  },
+  {
+    "name": "Parka Jacket",
+    "price": 59.99,
+    "url": "https://i.pinimg.com/originals/40/70/13/407013f894ac4fd85134ab1969bfba29.jpg",
+    "categoryId": 19,
+    "size": [
+      1,
+      3,
+      4
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286552
+  },
+  {
+    "name": "Vintage Overalls",
+    "price": 38.99,
+    "url": "https://www.lulus.com/images/product/xlarge/9313461_1943376.jpg?w=375&hdpi=1",
+    "categoryId": 2,
+    "size": [
+      2,
+      4
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286553
+  },
+  {
+    "name": "Canvas Sneakers",
+    "price": 29.99,
+    "url": "https://i.pinimg.com/originals/c6/5a/fd/c65afddccd87902457f69bac1a645634.jpg",
+    "categoryId": 12,
+    "size": [
+      1,
+      2
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286554
+  },
+  {
+    "name": "Wool Mittens",
+    "price": 15.99,
+    "url": "https://www.houseofbruar.com/images/products/medium/CU15300MERINONATURAL.jpg",
+    "categoryId": 6,
+    "size": [
+      1,
+      3,
+      4
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286555
+  },
+  {
+    "name": "Pajama Set",
+    "price": 24.99,
+    "url": "https://m.media-amazon.com/images/I/61jw+AgFXbL._AC_UY1000_.jpg",
+    "categoryId": 18,
+    "size": [
+      2,
+      3
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286556
+  },
+  {
+    "name": "Corduroy Blazer",
+    "price": 49.99,
+    "url": "https://d1fufvy4xao6k9.cloudfront.net/images/landings/481/jacket_corduroy_1_2.jpg",
+    "categoryId": 11,
+    "size": [
+      1,
+      4
+    ],
+    "new": false,
+    "gender": "male",
+    "dataCreation": 1697406286557
+  },
+  {
+    "name": "Cargo Shorts",
+    "price": 19.99,
+    "url": "https://cdn.shopify.com/s/files/1/1999/6519/files/deciding_yes_or_no_on_cargo_shorts_large.jpg?v=1594339976",
+    "categoryId": 20,
+    "size": [
+      1,
+      2
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286558
+  },
+  {
+    "name": "Knit Poncho",
+    "price": 39.99,
+    "url": "https://www.theknittingnetwork.co.uk/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/W/o/Womens_Poncho_Jumper_Knitting_Pattern_1_0ebfd549-6976-4139-890c-cccb910230f1.jpg",
+    "categoryId": 13,
+    "size": [
+      3,
+      4
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286559
+  },
+  {
+    "name": "Beret Hat",
+    "price": 12.99,
+    "url": "https://i.pinimg.com/564x/ab/54/ae/ab54ae7e83cdfd75aaf1a501d825d29b.jpg",
+    "categoryId": 27,
+    "size": [
+      1,
+      2,
+      3
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286560
+  },
+  {
+    "name": "Leather Gloves",
+    "price": 16.99,
+    "url": "https://cdn.shopify.com/s/files/1/0269/5702/1239/products/Lorenzo-1_800x.jpg?v=1666119869",
+    "categoryId": 19,
+    "size": [
+      2,
+      4
+    ],
+    "new": false,
+    "gender": "male",
+    "dataCreation": 1697406286561
+  },
+  {
+    "name": "Floral Kimono",
+    "price": 28.99,
+    "url": "https://media.boohoo.com/i/boohoo/gzz51697_purple_xl_2/female-purple-floral-print-frill-kimono-",
+    "categoryId": 12,
+    "size": [
+      1,
+      3
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286562
+  },
+  {
+    "name": "Boho Dress",
+    "price": 44.99,
+    "url": "https://www.lulus.com/images/product/xlarge/5229430_993362.jpg?w=195&hdpi=1",
+    "categoryId": 7,
+    "size": [
+      1,
+      4
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286563
+  },
+  {
+    "name": "Beaded Necklace",
+    "price": 9.99,
+    "url": "https://shineshop.no/cdn/shop/products/e3d2ead5-67ee-46db-93bd-250cecd73909.png?v=1693727964",
+    "categoryId": 13,
+    "size": [
+      1,
+      2,
+      3
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286564
+  },
+  {
+    "name": "Maxi Skirt",
+    "price": 34.99,
+    "url": "https://media.boohoo.com/i/boohoo/gzz18026_black_xl_3/female-black-tall-tube-skirt-maxi-skirt",
+    "categoryId": 3,
+    "size": [
+      2,
+      4
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286565
+  },
+  {
+    "name": "Quilted Vest",
+    "price": 18.99,
+    "url": "https://www.vermontcountrystore.com/ccstore/v1/images/?source=/file/v8692765116528741734/products/82867.main.01.png&height=475&width=475&outputFormat=JPEG",
+    "categoryId": 12,
+    "size": [
+      1,
+      2
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286566
+  },
+  {
+    "name": "Flannel Shirt",
+    "price": 27.99,
+    "url": "https://image.made-in-china.com/202f0j00HvzWocpaVPgu/Eco-Friendly-Plaid-Shirt-Mens-Cotton-Sustainable-Men-s-Shirts-Organic-Cotton-Stretch-Flannel-Shirt-Men-Clothes-Shirt-Stretch-Flannel-Shirt.jpg",
+    "categoryId": 5,
+    "size": [
+      1,
+      3,
+      4
+    ],
+    "new": false,
+    "gender": "male",
+    "dataCreation": 1697406286567
+  },
+  {
+    "name": "Silk Scarf",
+    "price": 13.99,
+    "url": "https://elizabetta.net/cdn/shop/articles/ladies-como-silk-scarf_2000x.jpg?v=1688224857",
+    "categoryId": 18,
+    "size": [
+      2,
+      3
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286568
+  },
+  {
+    "name": "Bomber Jacket",
+    "price": 59.99,
+    "url": "https://images.timberland.com/is/image/TimberlandEU/A66J5DH4-hero?wid=720&hei=720&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0",
+    "categoryId": 20,
+    "size": [
+      1,
+      4
+    ],
+    "new": false,
+    "gender": "male",
+    "dataCreation": 1697406286569
+  },
+  {
+    "name": "Sheer Blouse",
+    "price": 21.99,
+    "url": "https://media.boohoo.com/i/boohoo/fzz74537_black_xl_1/female-black-sheer-sleeve-soft-blouse",
+    "categoryId": 3,
+    "size": [
+      1,
+      2
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286570
+  },
+  {
+    "name": "Knee Socks",
+    "price": 7.99,
+    "url": "https://www.socksnsocks.com/cdn/shop/products/IMGL6809_2048x.jpg?v=1602092822",
+    "categoryId": 12,
+    "size": [
+      2,
+      3,
+      4
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286571
+  },
+  {
+    "name": "Embroidered Vest",
+    "price": 29.99,
+    "url": "https://ae01.alicdn.com/kf/S93cd8015c1c24e8c8ad9b91005ced6c8e.jpg_640x640Q90.jpg_.webp",
+    "categoryId": 15,
+    "size": [
+      1,
+      2
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286572
+  },
+  {
+    "name": "Trench Coat",
+    "price": 44.99,
+    "url": "https://www.mygeisha.com/image/cache/catalog/AACOJE/poze_0007_FS_1096-1200x1200.jpg",
+    "categoryId": 6,
+    "size": [
+      1,
+      3,
+      4
+    ],
+    "new": false,
+    "gender": "male",
+    "dataCreation": 1697406286573
+  },
+  {
+    "name": "Pleated Skirt",
+    "price": 18.99,
+    "url": "https://i.pinimg.com/736x/60/26/a5/6026a51b4f7e0eb0486089318e95db88.jpg",
+    "categoryId": 1,
+    "size": [
+      2,
+      4
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286574
+  },
+  {
+    "name": "Denim Jacket",
+    "price": 29.99,
+    "url": "https://oldnavy.gap.com/webcontent/0052/755/033/cn52755033.jpg",
+    "categoryId": 12,
+    "size": [
+      1,
+      2
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286575
+  },
+  {
+    "name": "Racerback Tank",
+    "price": 12.99,
+    "url": "https://i.pinimg.com/236x/0d/9a/71/0d9a71b6590b4fd26ab6833bb60e59c8.jpg",
+    "categoryId": 15,
+    "size": [
+      1,
+      4
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286576
+  },
+  {
+    "name": "Faux Fur Vest",
+    "price": 15.99,
+    "url": "https://media.boohoo.com/i/boohoo/azz30245_black_xl?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
+    "categoryId": 7,
+    "size": [
+      1,
+      2,
+      3
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286577
+  },
+  {
+    "name": "Cargo Jacket",
+    "price": 32.99,
+    "url": "https://mauvais.co.uk/cdn/shop/products/MAU-69-01_1024x.png?v=1648203191",
+    "categoryId": 5,
+    "size": [
+      2,
+      4
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286578
+  },
+  {
+    "name": "Wool Peacoat",
+    "price": 54.99,
+    "url": "https://boutique.dalmardmarine.com/2046-tm_thickbox_default/detroit-or-pea-coat-women-fitted-cut-made-of-wool.jpg",
+    "categoryId": 3,
+    "size": [
+      1,
+      3
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286579
+  },
+  {
+    "name": "Paisley Dress",
+    "price": 24.99,
+    "url": "https://media.boohoo.com/i/boohoo/pzz83564_blush_xl/female-blush-plus-paisley-wrap-maxi-dress",
+    "categoryId": 18,
+    "size": [
+      2,
+      4
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286580
+  },
+  {
+    "name": "Harem Pants",
+    "price": 19.99,
+    "url": "https://www.harempants.com/cdn/shop/products/Sure_Design_29_2_of_442.jpg?v=1448274038",
+    "categoryId": 20,
+    "size": [
+      1,
+      3
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286581
+  },
+  {
+    "name": "Fedora Hat",
+    "price": 12.99,
+    "url": "https://i.pinimg.com/564x/9c/cd/36/9ccd365b58c91412daedcd9c33b01057.jpg",
+    "categoryId": 11,
+    "size": [
+      1,
+      2,
+      3
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286582
+  },
+  {
+    "name": "Fringe Vest",
+    "price": 24.99,
+    "url": "https://i.pinimg.com/550x/79/79/7d/79797d061f80721be4bc07b3ee0ae7ed.jpg",
+    "categoryId": 9,
+    "size": [
+      1,
+      4
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286583
+  },
+  {
+    "name": "Turtleneck Sweater",
+    "price": 34.99,
+    "url": "https://cdni.llbean.net/is/image/wim/515159_0_44?hei=1095&wid=950&resMode=sharp2&defaultImage=llbprod/A0211793_2",
+    "categoryId": 27,
+    "size": [
+      2,
+      3
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286584
+  },
+  {
+    "name": "High-Top Sneakers",
+    "price": 29.99,
+    "url": "https://content.asos-media.com/-/media/images/articles/women/2018/02/27/wtwt/what-to-wear-to-article-01.jpg?la=en-US&h=700&w=480&hash=94AA5AC4C4FB1632ACCB4801A8216F18",
+    "categoryId": 12,
+    "size": [
+      1,
+      3,
+      4
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286585
+  },
+  {
+    "name": "Leather Leggings",
+    "price": 59.99,
+    "url": "https://media.boohoo.com/i/boohoo/bqq07163_black_xl?fmt=auto&cs=rgb&qlt=default&imagesize=960&w=%7B%24imagesize%2A%24dpr%7D&dpr=1",
+    "categoryId": 6,
+    "size": [
+      1,
+      2
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286586
+  },
+  {
+    "name": "Off-the-Shoulder Top",
+    "price": 18.99,
+    "url": "https://sugarlips.com/cdn/shop/products/SL1230_1.jpg?v=1535071867",
+    "categoryId": 15,
+    "size": [
+      1,
+      3,
+      4
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286587
+  },
+  {
+    "name": "Satin Robe",
+    "price": 44.99,
+    "url": "https://nkimode.com/cdn/shop/products/nk-mens-silk-robe-robe-nk-imode-evening-blue-blue-s-876374.jpg?v=1666115540",
+    "categoryId": 1,
+    "size": [
+      1,
+      2
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286588
+  },
+  {
+    "name": "Striped Jumpsuit",
+    "price": 28.99,
+    "url": "https://media.boohoo.com/i/boohoo/fzz52701_black_xl/female-black-striped-linen-wide-leg-jumpsuit/?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
+    "categoryId": 12,
+    "size": [
+      1,
+      4
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286589
+  },
+  {
+    "name": "Checkered Blouse",
+    "price": 21.99,
+    "url": "https://i.pinimg.com/736x/2f/60/c2/2f60c2be2cde69673eec7614c273ba15.jpg",
+    "categoryId": 9,
+    "size": [
+      2,
+      3
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286590
+  },
+  {
+    "name": "Utility Pants",
+    "price": 22.99,
+    "url": "https://images.wrangler.com/is/image/Wrangler/112338140-HERO?$KDP-XXLARGE$",
+    "categoryId": 11,
+    "size": [
+      1,
+      2,
+      4
+    ],
+    "new": false,
+    "gender": "male",
+    "dataCreation": 1697406286591
+  },
+  {
+    "name": "Cropped Cardigan",
+    "price": 31.99,
+    "url": "https://media.boohoo.com/i/boohoo/gzz47337_chocolate_xl_2/female-chocolate-stripe-crop-cardigan",
+    "categoryId": 15,
+    "size": [
+      1,
+      3
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286592
+  },
+  {
+    "name": "Suede Boots",
+    "price": 34.99,
+    "url": "https://www.houseofbruar.com/images/products/medium/TA04227TAN.jpg",
+    "categoryId": 6,
+    "size": [
+      1,
+      2,
+      3
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286593
+  },
+  {
+    "name": "Camo Jacket",
+    "price": 44.99,
+    "url": "https://media.boohoo.com/i/boohoo/dzz22263_khaki_xl/female-khaki-camo-jacket/?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
+    "categoryId": 18,
+    "size": [
+      2,
+      4
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286594
+  },
+  {
+    "name": "Striped Sweater",
+    "price": 14.99,
+    "url": "https://www.thenauticalcompany.com/images/source/CLOTHING/cc/breton-sweater-stripe-men-captain.jpg",
+    "categoryId": 1,
+    "size": [
+      1,
+      3,
+      4
+    ],
+    "new": false,
+    "gender": "male",
+    "dataCreation": 1697406286595
+  },
+  {
+    "name": "Bell-Bottom Jeans",
+    "price": 59.99,
+    "url": "https://5.imimg.com/data5/ECOM/Default/2023/3/WY/HZ/CK/79433386/4774846215.jpg",
+    "categoryId": 12,
+    "size": [
+      1,
+      2
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286596
+  },
+  {
+    "name": "Chambray Shirt",
+    "price": 28.99,
+    "url": "https://tommybahama.scene7.com/is/image/TommyBahama/SW321126_12485_main?$main_detail_700$",
+    "categoryId": 7,
+    "size": [
+      1,
+      4
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286597
+  },
+  {
+    "name": "Embellished Jeans",
+    "price": 16.99,
+    "url": "https://img.perniaspopupshop.com/catalog/product/r/b/RBMC012156_1.jpg?impolicy=detailimageprod",
+    "categoryId": 15,
+    "size": [
+      2,
+      3
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286598
+  },
+  {
+    "name": "Wool Fedora",
+    "price": 24.99,
+    "url": "https://thehatproject.com.au/cdn/shop/products/FEDORA-WOMENS-HAT-WOOLFELT-BROWN-MF14-2-THEHATPROJECT-_1.jpg?v=1632350680",
+    "categoryId": 6,
+    "size": [
+      1,
+      2,
+      4
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286599
+  },
+  {
+    "name": "Cargo Skirt",
+    "price": 22.99,
+    "url": "https://images.squarespace-cdn.com/content/v1/5c6c7ff465a707dd254f76d1/1668545905210-VYXA7Y6JDSD8KCTH2XET/circletee1.jpg?format=750w",
+    "categoryId": 4,
+    "size": [
+      1,
+      3
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286600
+  },
+  {
+    "name": "Knit Hood",
+    "price": 19.99,
+    "url": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1642416899-asos-weekday-harmony-fluffy-blue-snood-knitted-hood-1642416869.jpg?crop=0.854xw:1.00xh;0.146xw,0&resize=980:*",
+    "categoryId": 20,
+    "size": [
+      2,
+      4
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286601
+  },
+  {
+    "name": "Plaid Mini Skirt",
+    "price": 32.99,
+    "url": "https://i.pinimg.com/originals/6d/58/c5/6d58c51bb670ff9dd1d32560d5582ec5.jpg",
+    "categoryId": 5,
+    "size": [
+      1,
+      3,
+      4
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286602
+  },
+  {
+    "name": "Corduroy Pants",
+    "price": 18.99,
+    "url": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1667523256-hmplus-1667523224.jpg?crop=1xw:1xh;center,top&resize=980:*",
+    "categoryId": 27,
+    "size": [
+      1,
+      2
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286603
+  },
+  {
+    "name": "Ruffled Blouse",
+    "price": 29.99,
+    "url": "https://i.etsystatic.com/20205329/r/il/355b50/2579852902/il_fullxfull.2579852902_1hjw.jpg",
+    "categoryId": 12,
+    "size": [
+      2,
+      3,
+      4
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286604
+  },
+  {
+    "name": "Pleated Blazer",
+    "price": 39.99,
+    "url": "https://media.boohoo.com/i/boohoo/gzz52826_ivory_xl_2/female-ivory-pleated-flared-sleeve-tailored-blazer",
+    "categoryId": 1,
+    "size": [
+      1,
+      3
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286605
+  },
+  {
+    "name": "Lace Bodysuit",
+    "price": 26.99,
+    "url": "https://media.boohoo.com/i/boohoo/pzz75789_black_xl_3/female-black-plus-lace-satin-bodysuit",
+    "categoryId": 18,
+    "size": [
+      2,
+      4
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286606
+  },
+  {
+    "name": "Polka Dot Dress",
+    "price": 49.99,
+    "url": "https://media.boohoo.com/i/boohoo/dzz29501_black_xl/female-black-boutique-polka-dot-wrap-dress",
+    "categoryId": 7,
+    "size": [
+      1,
+      2,
+      3
+    ],
+    "new": false,
+    "gender": "male",
+    "dataCreation": 1697406286607
+  },
+  {
+    "name": "Slingback Pumps",
+    "price": 39.99,
+    "url": "https://cdn.cliqueinc.com/posts/300622/best-slingback-heels-300622-1655728412881-promo.700x0c.jpg",
+    "categoryId": 15,
+    "size": [
+      1,
+      3,
+      4
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286608
+  },
+  {
+    "name": "Linen Blouse",
+    "price": 21.99,
+    "url": "https://cdn.shopify.com/s/files/1/0190/3532/4516/files/ok.DSC02699_small_c35bc17f-8486-4a73-b59b-44fabc6e83f7.jpg?v=1585498055",
+    "categoryId": 3,
+    "size": [
+      1,
+      2
+    ],
+    "new": false,
+    "gender": "male",
+    "dataCreation": 1697406286609
+  },
+  {
+    "name": "Patchwork Vest",
+    "price": 29.99,
+    "url": "https://us.wconcept.com/media/catalog/product/morder/product/960/710373960_1_301463265_DP53872.jpg?quality=80&fit=bounds&height=700&width=700",
+    "categoryId": 12,
+    "size": [
+      1,
+      3,
+      4
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286610
+  },
+  {
+    "name": "Cropped Jeans",
+    "price": 24.99,
+    "url": "https://imagescdn.forever21.in/img/app/product/3/332269-1547235.jpg?w=412&auto=format",
+    "categoryId": 6,
+    "size": [
+      2,
+      3
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286611
+  },
+  {
+    "name": "Straw Hat",
+    "price": 12.99,
+    "url": "https://emale.store/cdn/shop/files/485855_480x480.webp?v=1683268633",
+    "categoryId": 2,
+    "size": [
+      1,
+      4
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286612
+  },
+  {
+    "name": "Denim Skirt",
+    "price": 22.99,
+    "url": "https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-women/default/dwafa2148e/2056566/2056566-01-2.jpg?sw=640&sh=960&sm=fit",
+    "categoryId": 4,
+    "size": [
+      1,
+      2,
+      3
+    ],
+    "new": false,
+    "gender": "female",
+    "dataCreation": 1697406286613
+  },
+  {
+    "name": "Hooded Jacket",
+    "price": 34.99,
+    "url": "https://www.hrm-textil.de/media/image/06/e3/e8/Style-701-Herren-hooded-Jacket.jpg",
+    "categoryId": 9,
+    "size": [
+      2,
+      4
+    ],
+    "new": true,
+    "gender": "male",
+    "dataCreation": 1697406286614
+  },
+  {
+    "name": "Tie-Dye T-Shirt",
+    "price": 14.99,
+    "url": "https://media.boohoo.com/i/boohoo/bmm11643_black_xl/male-black-oversized-tie-dye-t-shirt/?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
+    "categoryId": 12,
+    "size": [
+      1,
+      3
+    ],
+    "new": false,
+    "gender": "male",
+    "dataCreation": 1697406286615
+  },
+  {
+    "name": "Silk Kimono",
+    "price": 39.99,
+    "url": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1639511467-ledamon-1639511455.jpg?crop=0.903xw:0.903xh;0.0483xw,0&resize=980:*",
+    "categoryId": 2,
+    "size": [
+      2,
+      4
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286616
+  },
+  {
+    "name": "Cotton Shorts",
+    "price": 18.99,
+    "url": "https://nz.assemblylabel.com/cdn/shop/products/Pandanus_Print_Swim_Short_Cocoa_Pandanus_0544jpg_600x.jpg?v=1694143887",
+    "categoryId": 7,
+    "size": [
+      1,
+      2,
+      3
+    ],
+    "new": false,
+    "gender": "male",
+    "dataCreation": 1697406286617
+  },
+  {
+    "name": "Velvet Pants",
+    "price": 32.99,
+    "url": "https://bluejeanbaby.com/cdn/shop/products/main_48031a0a-3657-43d8-8779-d221d1492669.jpg?v=1571439004",
+    "categoryId": 4,
+    "size": [
+      1,
+      3,
+      4
+    ],
+    "new": true,
+    "gender": "female",
+    "dataCreation": 1697406286618
+  },
+  {
+    "name": "Fleece Joggers",
+    "price": 24.99,
+    "url": "https://d2ptpgjeuon7yt.cloudfront.net/product-images/530-1000/3_19_44.jpg.webp",
+    "categoryId": 18,
+    "size": [
+      2,
+      4
+    ],
+    "new": false,
+    "gender": "male",
+    "dataCreation": 1697406286619
+  }
+]

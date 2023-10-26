@@ -173,22 +173,12 @@
     transform: rotate(90deg);
 }
 
-
 .sub-category-inputs {
     display: flex;
     flex-direction: column;
     margin-left: 40px;
     text-transform: uppercase;
 }
-
-
-/*.category-input:checked ~ .text {*/
-/*    color: #FF5E1B;*/
-/*}*/
-
-/*.category-input {*/
-/*    display: none;*/
-/*}*/
 
 form[name="categories"] input {
     display: none;
