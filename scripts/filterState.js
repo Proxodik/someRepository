@@ -2,7 +2,7 @@ class FilterState {
     constructor(categoryId, size, sortingId) {
         this.categoriesId = categoryId;
         this.size = size;
-        this.sortingId = sortingId;
+        this.sortingValue = sortingId;
     }
 
     updateFilterState(stateValues) {
@@ -14,7 +14,7 @@ class FilterState {
                 this.size = stateValues[value];
             }
             else if (value === 'sortingId') {
-                this.sortingId = stateValues[value];
+                this.sortingValue = stateValues[value];
             }
         }
         dispatchFilterStateData(this);
@@ -25,20 +25,13 @@ class FilterState {
         dispatchFilterStateData(this);
     }
 
-    resetEvent() {
-        document.dispatchEvent(new CustomEvent('resetButtonClick', {
-            bubbles: true,
-        }))
+    resetCategories() {
         filterState.categoriesId = [];
         dispatchFilterStateData(this)
     }
 
-    labelEvent(label) {
-        document.dispatchEvent(new CustomEvent('labelClick', {
-            bubbles: true,
-            detail: label,
-        }))
-        filterState.spliceCategoryId(+label.id)
+    labelEvent(id) {
+        filterState.spliceCategoryId(id)
     }
 }
 
@@ -46,7 +39,7 @@ const filterState = new FilterState([], 1, 0);
 
 
 function dispatchFilterStateData(data) {
-    document.dispatchEvent(new CustomEvent("filtersStateUpdate", {
+    document.dispatchEvent(new CustomEvent("productsRender", {
         bubbles: true,
         detail: data,
     }));

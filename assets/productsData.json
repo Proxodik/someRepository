@@ -9,6 +9,12 @@
       2,
       3
     ],
+    "quantity": {
+      "1": 5,
+      "2": 3,
+      "3": 6,
+      "4": 0
+    },
     "new": true,
     "gender": "male",
     "dataCreation": 1697406286520
@@ -320,7 +326,7 @@
   {
     "name": "Polo Shirt",
     "price": 18.99,
-    "url": "https://www.medelita.com/media/catalog/product/m/e/mens-polo-bering-sea-1_7.jpg?quality=100&fit=bounds&height=749&width=712",
+    "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRFoRFYlOkxK2dRyZ7fEKT131e9oHO3ybWc1Zrl2gD_rDXItASI_RuRShQYNR55VqIRxZTzHfX6gSccqiHKXAE6bEiYtJ1T&usqp=CAE",
     "categoryId": 1,
     "size": [
       1,
@@ -706,7 +712,7 @@
   {
     "name": "Trench Coat",
     "price": 44.99,
-    "url": "https://www.mygeisha.com/image/cache/catalog/AACOJE/poze_0007_FS_1096-1200x1200.jpg",
+    "url": "https://www.next.co.uk/nxtcms/resource/blob/5819088/2a25d4b2e3fad75ca8750c53a3d3cd96/04-10-23-mlp-hero-tile-01-min-data.jpg",
     "categoryId": 6,
     "size": [
       1,

@@ -12,8 +12,12 @@
     <link rel="stylesheet" href="style/menu.css">
     <link rel="stylesheet" href="style/content.css">
     <link rel="stylesheet" href="style/footer.css">
+
+    <link rel="stylesheet" href="product-page/product-page-marking.css">
 </head>
 <body>
+
+
 <div class="underline">Free shipping for orders above USD 150</div>
 
 <div class="header">
@@ -42,51 +46,63 @@
     <span class="slider-description">White Gold began gaining popularity in the early 1900’s as an alternative to platinum. </span>
 </div>
 
-<div class="bar">
-    <div class="bread-crumbs">
-        <a href="#">Woman</a>
+<div class="page-content">
+    <div class="bar">
+        <div class="bread-crumbs">
+            <a href="#">Woman</a>
+        </div>
+        <div class="sorting">
+
+            <span class="sortBy">Sort by</span>
+            <label>
+                <select class="options">
+                    <option value="select" selected disabled>select</option>
+                    <option value="low_to_high">Price, Low to High</option>
+                    <option value="high_to_low">Price, high to low</option>
+                    <option value="a_z">Alph. a-z</option>
+                    <option value="z_a">Alph. z-a</option>
+                    <option value="old_to_new">Date, old to new</option>
+                    <option value="new_to_old">Date, new to old</option>
+                </select>
+            </label>
+        </div>
     </div>
-    <div class="sorting">
-        <span class="sortBy">Sort By</span>
-          <label>
-            <select class="options">
-                <option value="select" selected disabled>select</option>
-              <option value="low_to_high">Price, Low to High</option>
-              <option value="high_to_low">Price, high to low</option>
-              <option value="a_z">Alph. a-z</option>
-              <option value="z_a">Alph. z-a</option>
-              <option value="old_to_new">Date, old to new</option>
-              <option value="new_to_old">Date, new to old</option>
-            </select>
-          </label>
-    </div>
-</div>
-<div class="filter-and-products">
-    <div class="filter">
-        <div class="filter-header">
-            <div class="selectedCategoriesWrapper">
-                <span>filters:</span>
-                <div class="selectedCategories"></div>
+    <button class="btnUp">&#94;</button>
+
+    <div class="filter-and-products">
+        <div class="filter">
+            <div class="filter-header">
+                <div class="selectedCategoriesWrapper">
+                    <span>filters:</span>
+                    <div class="selectedCategories"></div>
+                </div>
+                <button type="reset" class="reset">reset</button>
             </div>
-            <button type="reset" class="reset">reset</button>
+            <div class="categories"></div>
+            <div class="size-filter">
+                <span>- SIZES</span>
+                <div class="sizes">
+                    <button class="size-button active" value = '1'>1</button>
+                    <button class="size-button">2</button>
+                    <button class="size-button">3</button>
+                    <button class="size-button">4</button>
+                </div>
+                <a href="#" class="sizing-guide-link">SEE OUR SIZING GUIDE</a>
+            </div>
         </div>
-        <div class="categories"></div>
-        <div class="size-filter">
-        <span>- SIZES</span>
-        <div class="sizes">
-            <button class="size-button active" value = '1'>1</button>
-            <button class="size-button">2</button>
-            <button class="size-button">3</button>
-            <button class="size-button">4</button>
+        <div id="content">
+            <div id="products"></div>
+
+            <div class="loading">
+                <img src="/img/Spinner-1s-200px.svg" alt="loading" width="25" height="25">
+                <span>LOADING</span>
+            </div>
+
         </div>
-        <a href="#" class="sizing-guide-link">SEE OUR SIZING GUIDE</a>
-    </div>
-    </div>
-    <div id="content">
-        <div id="products"></div>
-        <div class="loading">LOADING</div>
     </div>
 </div>
+
+
 
 <div class="footer">
     <div class="footer-content">
@@ -116,19 +132,32 @@
                     <a href="#">26A Pagoda St, TANGS, Singapore, 058187</a>
                     <a href="#">+65 6221 5462</a>
                 </div>
-                <div class="newsletter">
-                    <p class="footer-link-header">Subscribe to newsletter</p>
-                    <input type="text" placeholder="ENTER YOUR EMAIL">
-                </div>
+            </div>
+        </div>
+        <div class="newsletter">
+            <p class="footer-link-header">Subscribe to newsletter</p>
+            <form>
+                <input class="subscribe-input" type="email" placeholder="ENTER YOUR EMAIL">
+                <input class="subscribe-button" type="submit" value="Subscribe">
+            </form>
+            <div class="social-media">
+                <a href="https://www.facebook.com/" target="_blank"><img src="/icons/facebook-icon.png" alt="facebook-icon"></a>
+                <a href="https://twitter.com" target="_blank"><img src="/icons/twitter-icon.png" alt="twitter-icon"></a>
             </div>
         </div>
     </div>
     <div class="copyright">© Copyright Matter PTE LTD 2017</div>
 </div>
+<script type="module" src="product-page/scripts/updatePageData.js"></script>
 <script type="module" src="scripts/menu.js"></script>
 <script type="module" src="scripts/content.js"></script>
-<script type='module' src="scripts/resetButton.js"></script>
+<!--<script type='module' src="scripts/resetButton.js"></script>-->
 <script type="module"  src="scripts/sizeButtons.js"></script>
 <script type="module" src="scripts/labels.js"></script>
+<script src="scripts/openProductPage.js"></script>
+
+<!--<script src="product-page/order.js"></script>-->
+<script src="product-page/scripts/slider.js"></script>
+
 </body>
 </html>

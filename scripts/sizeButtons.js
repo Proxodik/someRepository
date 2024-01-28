@@ -1,15 +1,22 @@
 import {filterState} from "./filterState.js";
 
-const sizesButtons = document.getElementsByClassName('sizes')[0];
+document.addEventListener('sizeButtons', sizeButtonsEvent)
 
-sizesButtons.addEventListener('click', (event) => {
-    if (!event.target.classList.contains('size-button')) return;
+function sizeButtonsEvent() {
+    const sizesButtons = document.getElementsByClassName('sizes')[0];
 
-    const activeButton = document.getElementsByClassName('active')[0];
-    activeButton && activeButton.classList.remove('active');
-    event.target.classList.add('active');
+    sizesButtons.addEventListener('click', (event) => {
+        if (!event.target.classList.contains('size-button')) return;
 
-    filterState.updateFilterState({size: +event.target.innerHTML})
-})
+        const activeButton = document.getElementsByClassName('active')[0];
+        activeButton && activeButton.classList.remove('active');
+        event.target.classList.add('active');
+
+        filterState.updateFilterState({size: +event.target.innerHTML})
+    })
+}
+sizeButtonsEvent()
+
+
 
 

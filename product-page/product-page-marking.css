@@ -1,0 +1,397 @@
+@font-face {
+    font-family: Proxima Nova;
+    font-weight: 400;
+    src: url("../fonts/ProximaNova-Regular.ttf");
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type='number'] {
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+
+.product-wrapper, .add-Info,  .reviews,  .recommendation {
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 16px;
+}
+
+.header {
+    font-size: 12px;
+}
+
+.product-wrapper {
+    display: flex;
+    gap: 30px;
+    padding: 40px 150px 60px;
+}
+
+.product-wrapper .product-slider {
+    display: flex;
+    gap: 30px;
+}
+
+.product-wrapper .product-slider .selectedImg {
+    border: 2px solid #FF5E1B;
+    border-bottom: 0;
+}
+
+.product-wrapper .slider-photos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-wrapper .share-links {
+    padding: 15px 100px 0 ;
+}
+
+.product-wrapper .product-name {
+    color: #030303;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+}
+
+
+.price-and-rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.product-wrapper .product-price {
+    color: #FF6008;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.product-rating {
+    display: flex;
+    gap: 10px;
+    height: 20px;
+}
+
+.rating-number {
+    color: #666;
+    text-align: justify;
+}
+
+.product-description {
+    margin: 20px 0 15px;
+    padding: 15px 10px 0;
+    box-shadow: 0 -2px 0 0 #F9F8F6;
+}
+
+.description-title {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.description-text {
+    padding-bottom: 15px;
+    font-weight: 300;
+    color: #666;
+    text-align: justify;
+}
+
+.see-more {
+    color: #33333A;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.companyInfo {
+    position: relative;
+}
+
+.companyInfo div {
+    display: flex;
+    padding: 15px 10px;
+    box-shadow: 0 -2px 0 0 #F3F3F3;
+}
+
+.companyInfo div p:last-child {
+    position: absolute;
+    left: 300px;
+    color: #666;
+}
+
+
+.order-options {
+    padding: 25px 10px 30px;
+    box-shadow: 0 -2px 0 0 #F9F8F6;
+
+}
+
+.sizes-container {
+    position: relative;
+}
+
+.size-title {
+    padding-bottom: 10px;
+    color: #33333A;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.size-buttons {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.size-button:disabled {
+    cursor: not-allowed;
+}
+
+.size-description {
+    margin-top: 5px;
+    color: #666;
+    font-size: 12px;
+}
+
+.size-guide {
+    padding-left: 200px;
+    color: #33333A;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.quantity {
+    margin-top: 20px;
+}
+
+.quantity-title {
+    margin-bottom: 10px;
+    color: #33333A;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.quantity-input {
+    display: inline-flex;
+    width: 120px;
+    border: 1px solid #030303;
+}
+
+.quantity-input input {
+    width: 80%;
+}
+
+.plus-btn, .minus-btn {
+    display: flex;
+    align-items: center;
+    user-select: none;
+    padding: 0 8px;
+}
+
+.minus, .plus, .plus span {
+    display: block;
+    width: 10px;
+    height: 3px;
+    background: #696969;
+}
+
+.plus span {
+    transform: rotate(90deg);
+}
+
+
+.add-to-cart {
+    margin-left: 20px;
+    width: 180px;
+    height: 40px;
+    background: #33333A;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.add-to-wishlist {
+    height: 40px;
+    margin-left: 70px;
+    box-shadow: 0 2px 0 0  #33333A;
+    color: #33333A;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    padding: 15px 10px 10px;
+    box-shadow: 0 -2px 0 0 #F9F8F6;
+}
+
+.features-header:not(.opened) ~ a{
+    display: none;
+}
+
+.features a {
+    color: #666;
+    text-align: justify;
+}
+
+.fabric-care {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 10px 10px;
+    box-shadow: 0 -2px 0 0 #F9F8F6;
+
+}
+
+.fabric-care-header:not(.opened) ~ p{
+    display: none;
+}
+
+.product-history {
+    padding: 10px 345px;
+    color: #666;
+    text-align: justify;
+}
+
+.product-history p:first-child {
+    padding-bottom: 40px;
+}
+
+.journal-photos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 150px 80px;
+}
+
+.journal-photo p {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+    background: #FCFCFC;
+    color: #33333A;
+}
+
+.quote p {
+    width: 750px;
+    text-align: justify;
+}
+
+.instagram {
+    height: 500px;
+}
+
+.insta-title {
+    color: #33333A;
+    text-align: center;
+    padding: 70px 0 25px;
+    font-family: Roboto, sans-serif;
+    font-size: 42px;
+}
+
+.instagram-photos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.reviews {
+    padding: 55px 350px 70px;
+    color: #33333A;
+    background: #FCFCFC;
+}
+
+.reviews-header {
+    color: #33333A;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 42px;
+}
+
+.reviews-details {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.reviews-details div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reviews-details div:last-child {
+    gap: 20px;
+}
+
+.write-review-title {
+    color: #666;
+    font-size: 12px;
+}
+
+.write-review-button {
+    width: 170px;
+    height: 40px;
+    background: #33333A;
+
+    color: #FFF;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.top-reviews-title {
+    padding: 35px 0 15px;
+    color: #33333A;
+    font-weight: 600;
+}
+
+.review {
+    margin-bottom: 10px;
+}
+
+.review-rating {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.review-user-details {
+    display: flex;
+    gap: 12px;
+    padding-bottom: 10px;
+}
+
+.more-reviews-button {
+    padding-top: 20px;
+    color: #FF5E1B;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.recommendation {
+    height: 690px;
+}

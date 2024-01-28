@@ -1,18 +1,47 @@
 .bar {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    position: relative;
     padding: 0 150px;
     height: 60px;
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
+
+
 .bread-crumbs {
+    display: flex;
+    position: relative;
+    top: 20px;
+    gap: 10px;
     font-size: 18px;
 }
 
 .bread-crumbs a {
     color: #030303;
+}
+
+.category-crumbs-container {
+    z-index: 3;
+}
+
+.category-crumbs-container a {
+    display: none;
+}
+
+.category-crumbs-container a:first-child {
+    display: block;
+    color: #FF5E1B;
+}
+
+.category-crumbs-container:hover a {
+    display: block;
+    background: aliceblue;
+}
+
+.sorting {
+    position: relative;
+    top: 10px;
 }
 
 .sortBy {

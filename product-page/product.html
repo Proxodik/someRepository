@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TestProduct</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/general.css">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/menu.css">
+
+    <link rel="stylesheet" href="../style/footer.css">
+
+    <link rel="stylesheet" href="/product-page/product-page-marking.css">
+</head>
+<body>
+<div class="underline">Free shipping for orders above USD 150</div>
+
+
+<!--Header-->
+
+<div class="header">
+    <div class="header-pages">
+        <a href="#" class="logo"><img src="../img/Logo.png" alt="logo"></a>
+        <a href="#" class="header-page activePage">SHOP</a>
+        <a href="#" class="header-page">FABRIC</a>
+        <a href="#" class="header-page">JOURNAL</a>
+        <a href="#" class="header-page">ABOUT</a>
+    </div>
+
+    <div class="header-user-sections">
+        <span class="user">
+            <span class="welcome">WELCOME, ALEX</span>
+            <img src="../img/user-photo.png" alt="userPhoto">
+        </span>
+        <a href="#"><img src="../icons/002-magnifying-glass.png" alt="search"></a>
+        <a href="#"> <img src="../icons/001-heart-outline.png" alt="heart"></a>
+        <a href="#"><img src="../icons/icons8-shopping-bag-20.png" alt="shopping-bag"></a>
+    </div>
+</div>
+
+<div class="bar">
+    <div class="bread-crumbs"></div>
+</div>
+
+<div class="product">
+
+    <div class="photos-and-links">
+        <div class="product-slider"></div>
+        <div class="share-links">
+            <p>Share this product</p>
+        </div>
+    </div>
+
+    <div class="product-info">
+        <div class="product-details"></div>
+
+        <div class="companyInfo"></div>
+
+        <div class="order-options">
+            <div class="sizes-container">
+                <p class="size-title">Size</p>
+
+<!--                <div class="size-buttons">-->
+<!--                    <button class="size-button active" value = '1'>1</button>-->
+<!--                    <button class="size-button">2</button>-->
+<!--                    <button class="size-button">3</button>-->
+<!--                    <button class="size-button">4</button>-->
+<!--                </div>-->
+
+                <a class="size-guide" href="https://www.google.com/">Size Guidelines</a>
+                <p class="size-description">Model is a US Size 2-4, wears Matter Size 1. 175 cm tall.</p>
+            </div>
+
+            <div class="quantity">
+                <p class="quantity-title">Quantity</p>
+                <div class="quantity-input">
+                    <span class="minus-btn">
+                        <span class="minus"></span>
+                    </span>
+                    <input type="number" min="1" value="1">
+                    <span class="plus-btn">
+                         <div class="plus"><span></span></div>
+                    </span>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+                <button class="add-to-wishlist">Add to wishlist</button>
+            </div>
+
+            <div class="features">
+                <p class="features-header">Features</p>
+            </div>
+
+            <div class="fabric-care">
+                <p class="fabric-care-header">Fabric Care</p>
+                <div class="fabric-care-list"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="add-Info"></div>
+
+<div class="reviews">
+    <p class="reviews-header">Customer Reviews</p>
+
+    <div class="reviews-details">
+        <div class="rating">
+            <img src="../product-page/icons/stars.png" alt="">
+            <p class="rating-number">4.8 of 5</p>
+        </div>
+        <div class="write-review">
+            <p class="write-review-title" >Share your thoughts with other customers</p>
+            <button class="write-review-button">Write a review</button>
+        </div>
+    </div>
+
+    <p class="top-reviews-title">Top Customers Reviews</p>
+
+    <div class="comments"></div>
+
+    <button class="more-reviews-button">Show more reviews</button>
+</div>
+
+<div class="recommendation"></div>
+
+<div class="footer">
+    <div class="footer-content">
+        <div class="footer-categories">
+            <p class="footer-link-header">Categories</p>
+            <div class="footer-links">
+                <a href="#">About us</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Contact</a>
+                <a href="#">Journal</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="footer-partners">
+            <p class="footer-link-header">Partners</p>
+            <div class="footer-links">
+                <a href="#">Support</a>
+                <a href="#">Shipping & Returns</a>
+                <a href="#">Size Guide</a>
+                <a href="#">Product Care</a>
+            </div>
+        </div>
+        <div class="communication">
+            <div class="contacts">
+                <p class="footer-link-header">Contact us</p>
+                <div class="footer-links">
+                    <a href="#">26A Pagoda St, TANGS, Singapore, 058187</a>
+                    <a href="#">+65 6221 5462</a>
+                </div>
+            </div>
+        </div>
+        <div class="newsletter">
+            <p class="footer-link-header">Subscribe to newsletter</p>
+            <form>
+                <input class="subscribe-input" type="email" placeholder="ENTER YOUR EMAIL">
+                <input class="subscribe-button" type="submit" value="Subscribe">
+            </form>
+            <div class="social-media">
+                <a href="https://www.facebook.com/" target="_blank"><img src="/icons/facebook-icon.png" alt="facebook-icon"></a>
+                <a href="https://twitter.com" target="_blank"><img src="/icons/twitter-icon.png" alt="twitter-icon"></a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">© Copyright Matter PTE LTD 2017</div>
+</div>
+<script src="scripts/appendSizes.js"></script>
+<script type="module" src="scripts/updatePageData.js"></script>
+<script src="order.js"></script>
+<script src="scripts/slider.js"></script>
+
+</body>
+</html>

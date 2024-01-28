@@ -1,0 +1,72 @@
+{
+  "crumbs": "Woman > Side Longhi2 > Blue Jeans",
+  "slider": {
+    "smallPhotos": ["img/sliderPhotos/Bitmap(Small).png","img/sliderPhotos/Bitmap2(Small).png","img/sliderPhotos/Bitmap3(Small).png","img/sliderPhotos/Bitmap4(Small).png","img/sliderPhotos/Bitmap5(Small).png"],
+    "bigPhotos": ["img/sliderPhotos/Bitmap(Big).png", "img/sliderPhotos/Bitmap1(Big).png","img/sliderPhotos/Bitmap2(Big).png","img/sliderPhotos/Bitmap3(Big).png"]
+  },
+  "shareLinks": {
+    "whatsApp": "#",
+    "sms": "#",
+    "link": "#"
+  },
+  "productInfo": {
+    "productName": "The Sideswept Dhoti + Bottom Line Grey (Silk)",
+    "price": "139.90",
+    "currency": "SGD",
+    "description": "Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen… ",
+    "companyInfo": {
+      "info1": "54 jobs",
+      "info2": "Randall Armstrong",
+      "info3": "Augusta Mendoza"
+    },
+    "quantity": {
+      "1": 5,
+      "2": 3,
+      "3": 6,
+      "4": 0
+    },
+    "helpfulInfo": {
+      "features": {
+        "Gently curved waistband": "#",
+        "Long self fabric waist belt": "#",
+        "Seamless side profile": "#",
+        "Back welt pocket with button": "#"
+      },
+      "fabricCare": {
+        "Fabric Notes": "Hand block printed with azo-free dyes. 90% Cotton 10% linen.",
+        "Care Instructions": "Keep this garment separate in the first few washes to prevent colour runs. When washed garment runs clear, you can throw it into the machine with other like-coloured clothing. Always use delicate machine wash with cold water, or handwash cold for best results. Do not tumble dry. Line dry inside out. Iron inside out using a low-temperature setting. "
+      }
+    }
+  },
+  "addInfo": {
+    "mainPhoto": "img/large-photo.jpg",
+    "phrases": [
+      "I have taste grilled meats around the world. Before i will guide you to the various technologies (gas barbecues, charcoal barbecues, Mongolian, sauces, recipes ) i will tell you about the Greek way.",
+
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    ],
+    "journalPhotos": {
+      "img/img1.png": "Lorem ipsum dolor sit amet",
+      "img/img2.png": "Lorem ipsum dolor sit amet",
+      "img/img3.png": "Lorem ipsum dolor sit amet"
+    },
+    "quote": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+
+    "instagram": {
+      "img/insta1.png": "https://www.instagram.com/p/C0NGecrNI88/",
+      "img/insta2.png": "https://www.instagram.com/p/C0NGecrNI88/",
+      "img/insta3.png": "https://www.instagram.com/p/C0NGecrNI88/",
+      "img/insta4.png": "https://www.instagram.com/p/C0NGecrNI88/"
+    }
+  },
+
+  "reviews": [
+    {
+      "username": "Customer Name",
+      "rating": 4.8,
+      "date": "February 18, 2017",
+      "text": "Millions of Americans turn to Lasik Surgery when their vision is less than perfect and they’re tired of being tied down to wearing glasses or contacts. What part of the eye is it that may be causing all your vision trouble? Your cornea! When the shape of your cornea is irregular, the image on your retina is blurry and out-of-focus. The cornea is a part of your eye that works to focus light and projects an image on the retina. This focusing of light is called refraction. The 3 main types of refractive errors are myopia (nearsightedness), hyperopia (farsightedness) and astigmatism. "
+    }
+  ],
+  "recommendations": []
+}

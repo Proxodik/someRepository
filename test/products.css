@@ -1,0 +1,5 @@
+#products {
+    display: inline-flex;
+    gap: 30px;
+    border: #030303 solid 1px;
+}

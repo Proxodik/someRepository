@@ -1,0 +1,20 @@
+{
+  "name": "Blue Jeans",
+  "price": 24.99,
+  "url": "https://m.media-amazon.com/images/I/61dtXZcg-AL._SX342_.jpg",
+  "categoryId": 12,
+  "size": [
+    1,
+    2,
+    3
+  ],
+  "quantity": {
+    "1": 5,
+    "2": 3,
+    "3": 6,
+    "4": 0
+  },
+  "new": true,
+  "gender": "male",
+  "dataCreation": 1697406286520
+}
